@@ -8,7 +8,7 @@ async function loadPlantPage() {
       return;
     }
 
-    // 👉 PRENDE UNA SOLA PIANTA
+    // 👉 PIANTA
     const { data: plant, error: plantError } = await db
       .from("plants")
       .select("*")
@@ -20,7 +20,7 @@ async function loadPlantPage() {
       return;
     }
 
-    // 👉 PRENDE EVENTI DI QUELLA PIANTA
+    // 👉 EVENTI
     const { data: events, error: eventsError } = await db
       .from("events")
       .select("*")
@@ -50,7 +50,7 @@ async function loadPlantPage() {
     // EVENTI
     // =========================
 
-    const plantEvents = events || [];
+    const plantEvents = Array.isArray(events) ? events : [];
 
     // 💧 INNAFFIATURA
     const waterContainer = document.getElementById("wateringHistory");
@@ -80,6 +80,43 @@ async function loadPlantPage() {
     plantEvents.forEach(ev => {
       diaryContainer.appendChild(createRow(ev, true));
     });
+
+    // =========================
+    // NUOVO EVENTO
+    // =========================
+
+    const saveBtn = document.getElementById("saveEventBtn");
+
+    if (saveBtn) {
+      saveBtn.addEventListener("click", async () => {
+        const type = document.getElementById("eventType").value;
+        const text = document.getElementById("eventText").value.trim();
+
+        if (!text) {
+          alert("Scrivi qualcosa");
+          return;
+        }
+
+        const today = new Date().toISOString().slice(0, 10);
+
+        const { error } = await db.from("events").insert([
+          {
+            plant_id: plantId,
+            date: today,
+            type: type,
+            text: text
+          }
+        ]);
+
+        if (error) {
+          console.error(error);
+          alert("Errore salvataggio");
+        } else {
+          document.getElementById("eventText").value = "";
+          location.reload();
+        }
+      });
+    }
 
   } catch (err) {
     console.error("Errore pagina pianta:", err);
