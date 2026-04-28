@@ -1,0 +1,4722 @@
+{
+  "plants": [
+    {
+      "id": "PL001",
+      "name": "Monstera Thai",
+      "scientific": "monstera deliciosa thai constellation",
+      "status": "ok",
+      "meta": {
+        "origin": "acquisto",
+        "date": "2025-06-05",
+        "place": "Esselunga",
+        "price": "19.90",
+        "photo": "N/A",
+        "light": "luce indiretta luminosa",
+        "temperature": "18 – 27",
+        "temp_min": "18",
+        "temp_max": "27"
+      },
+      "watering": {
+        "rule": "lascia asciugare completamente",
+        "history": [
+          {
+            "id": "W0028",
+            "plant_id": "PL001",
+            "date": "2026-04-25",
+            "type": "parziale",
+            "note": ""
+          },
+          {
+            "id": "W0001",
+            "plant_id": "PL001",
+            "date": "2026-04-19",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [
+        {
+          "id": "R0009",
+          "plant_id": "PL001",
+          "date": "2024-03-15",
+          "previous_pot": "N/A",
+          "new_pot": "N/A",
+          "substrate": "N/A",
+          "note": "monstera con strabordo radici"
+        }
+      ],
+      "treatments": [],
+      "events": [
+        {
+          "id": "R0009",
+          "plant_id": "PL001",
+          "date": "2024-03-15",
+          "type": "repot",
+          "text": "rinvaso vaso N/A → N/A | substrato: N/A | monstera con strabordo radici",
+          "source": "rinvasi"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL002",
+      "name": "Monstera",
+      "scientific": "monstera deliciosa",
+      "status": "ok",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "N/A",
+        "light": "luce indiretta luminosa",
+        "temperature": "15 – 30",
+        "temp_min": "15",
+        "temp_max": "30"
+      },
+      "watering": {
+        "rule": "lascia asciugare completamente",
+        "history": []
+      },
+      "repotting": [
+        {
+          "id": "R0010",
+          "plant_id": "PL002",
+          "date": "2024-03-15",
+          "previous_pot": "N/A",
+          "new_pot": "N/A",
+          "substrate": "N/A",
+          "note": "monstera con strabordo radici"
+        }
+      ],
+      "treatments": [],
+      "events": [
+        {
+          "id": "R0010",
+          "plant_id": "PL002",
+          "date": "2024-03-15",
+          "type": "repot",
+          "text": "rinvaso vaso N/A → N/A | substrato: N/A | monstera con strabordo radici",
+          "source": "rinvasi"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL003",
+      "name": "Iresine",
+      "scientific": "iresine herbstii",
+      "status": "ok",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "N/A",
+        "light": "luce indiretta luminosa",
+        "temperature": "15 – 25",
+        "temp_min": "15",
+        "temp_max": "25"
+      },
+      "watering": {
+        "rule": "mantieni leggermente umido",
+        "history": []
+      },
+      "repotting": [
+        {
+          "id": "R0011",
+          "plant_id": "PL003",
+          "date": "2024-03-15",
+          "previous_pot": "N/A",
+          "new_pot": "N/A",
+          "substrate": "N/A",
+          "note": "balconetta separata"
+        }
+      ],
+      "treatments": [
+        {
+          "id": "T003",
+          "plant_id": "PL003",
+          "date": "2026-04-06",
+          "type": "fertilizzazione",
+          "description": "innaffiato con fertilizzante per piante verdi",
+          "product": "fito concime piante verdi",
+          "outcome": "",
+          "note": "",
+          "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi"
+        }
+      ],
+      "events": [
+        {
+          "id": "E0001",
+          "plant_id": "PL003",
+          "date": "2026-04-12",
+          "category": "intervento",
+          "type": "treatment",
+          "text": "potatura e stralci in idro a radicare",
+          "source": "diario"
+        },
+        {
+          "id": "R0011",
+          "plant_id": "PL003",
+          "date": "2024-03-15",
+          "type": "repot",
+          "text": "rinvaso vaso N/A → N/A | substrato: N/A | balconetta separata",
+          "source": "rinvasi"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL004",
+      "name": "Oxalis Pink",
+      "scientific": "oxalis vulcanicola pink variegata",
+      "status": "ok",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "N/A",
+        "light": "luce indiretta luminosa",
+        "temperature": "10 – 25",
+        "temp_min": "10",
+        "temp_max": "25"
+      },
+      "watering": {
+        "rule": "lascia asciugare per metà",
+        "history": []
+      },
+      "repotting": [
+        {
+          "id": "R0012",
+          "plant_id": "PL004",
+          "date": "2024-03-15",
+          "previous_pot": "N/A",
+          "new_pot": "N/A",
+          "substrate": "N/A",
+          "note": "balconetta separata"
+        }
+      ],
+      "treatments": [],
+      "events": [
+        {
+          "id": "R0012",
+          "plant_id": "PL004",
+          "date": "2024-03-15",
+          "type": "repot",
+          "text": "rinvaso vaso N/A → N/A | substrato: N/A | balconetta separata",
+          "source": "rinvasi"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL005",
+      "name": "Schefflera Baby",
+      "scientific": "schefflera arboricola variegata",
+      "status": "ok",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "Viridea",
+        "price": "N/A",
+        "photo": "N/A",
+        "light": "luce indiretta",
+        "temperature": "18 – 24",
+        "temp_min": "18",
+        "temp_max": "24"
+      },
+      "watering": {
+        "rule": "lascia asciugare completamente",
+        "history": [
+          {
+            "id": "W0032",
+            "plant_id": "PL005",
+            "date": "2026-04-25",
+            "type": "parziale",
+            "note": ""
+          },
+          {
+            "id": "W0003",
+            "plant_id": "PL005",
+            "date": "2026-04-19",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [],
+      "treatments": [],
+      "events": [],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL006",
+      "name": "Ficus Tineke Baby",
+      "scientific": "ficus elastica tineke",
+      "status": "ok",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta luminosa",
+        "temperature": "18 – 24",
+        "temp_min": "18",
+        "temp_max": "24"
+      },
+      "watering": {
+        "rule": "lascia asciugare per metà",
+        "history": [
+          {
+            "id": "W0030",
+            "plant_id": "PL006",
+            "date": "2026-04-25",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [],
+      "treatments": [],
+      "events": [],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL007",
+      "name": "Ficus Belize Baby",
+      "scientific": "ficus elastica belize",
+      "status": "ok",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta luminosa",
+        "temperature": "15 – 30",
+        "temp_min": "15",
+        "temp_max": "30"
+      },
+      "watering": {
+        "rule": "lascia asciugare per metà",
+        "history": [
+          {
+            "id": "W0031",
+            "plant_id": "PL007",
+            "date": "2026-04-25",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [],
+      "treatments": [],
+      "events": [],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL008",
+      "name": "Pothos 'njoy baby",
+      "scientific": "scindapsus n'joy",
+      "status": "ok",
+      "meta": {
+        "origin": "talea",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta luminosa",
+        "temperature": "18 – 25",
+        "temp_min": "18",
+        "temp_max": "25"
+      },
+      "watering": {
+        "rule": "lascia asciugare per metà",
+        "history": [
+          {
+            "id": "W0029",
+            "plant_id": "PL008",
+            "date": "2026-04-25",
+            "type": "parziale",
+            "note": ""
+          },
+          {
+            "id": "W0002",
+            "plant_id": "PL008",
+            "date": "2026-04-19",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [],
+      "treatments": [],
+      "events": [],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL009",
+      "name": "Strelitzia media",
+      "scientific": "strelitzia reginae (forse)",
+      "status": "problema",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "pieno sole",
+        "temperature": "10 – 28",
+        "temp_min": "10",
+        "temp_max": "28"
+      },
+      "watering": {
+        "rule": "lascia asciugare completamente",
+        "history": [
+          {
+            "id": "W0033",
+            "plant_id": "PL009",
+            "date": "2026-04-25",
+            "type": "parziale",
+            "note": ""
+          },
+          {
+            "id": "W0004",
+            "plant_id": "PL009",
+            "date": "2026-04-19",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [],
+      "treatments": [
+        {
+          "id": "T024",
+          "plant_id": "PL009",
+          "date": "2026-04-12",
+          "type": "trattamento",
+          "description": "pulizia foglie per rimozione cocciniglia cotonosa",
+          "product": "olio di neem",
+          "outcome": "",
+          "note": "",
+          "text": "pulizia foglie per rimozione cocciniglia cotonosa — prodotto: olio di neem"
+        },
+        {
+          "id": "T004",
+          "plant_id": "PL009",
+          "date": "2026-04-06",
+          "type": "fertilizzazione",
+          "description": "innaffiato con fertilizzante per piante verdi",
+          "product": "fito concime piante verdi",
+          "outcome": "",
+          "note": "",
+          "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi"
+        }
+      ],
+      "events": [
+        {
+          "id": "E0002",
+          "plant_id": "PL009",
+          "date": "2026-04-12",
+          "category": "problema",
+          "type": "problem",
+          "text": "terreno idrofobico+radici fuori vaso+cocciniglia cotonosa",
+          "source": "diario"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL010",
+      "name": "Coleus",
+      "scientific": "solenostemon scutellarioides",
+      "status": "ok",
+      "meta": {
+        "origin": "regalo",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta",
+        "temperature": "15 – 32",
+        "temp_min": "15",
+        "temp_max": "32"
+      },
+      "watering": {
+        "rule": "mantieni leggermente umido",
+        "history": []
+      },
+      "repotting": [],
+      "treatments": [],
+      "events": [],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL011",
+      "name": "Ficus",
+      "scientific": "ficus elastica",
+      "status": "ok",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta luminosa",
+        "temperature": "16 – 24",
+        "temp_min": "16",
+        "temp_max": "24"
+      },
+      "watering": {
+        "rule": "lascia asciugare completamente",
+        "history": []
+      },
+      "repotting": [],
+      "treatments": [],
+      "events": [],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL012",
+      "name": "Strelitzia augusta verde",
+      "scientific": "strelitzia alba augusta",
+      "status": "problema",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "pieno sole",
+        "temperature": "16 – 24",
+        "temp_min": "16",
+        "temp_max": "24"
+      },
+      "watering": {
+        "rule": "lascia asciugare completamente",
+        "history": [
+          {
+            "id": "W0034",
+            "plant_id": "PL012",
+            "date": "2026-04-25",
+            "type": "parziale",
+            "note": ""
+          },
+          {
+            "id": "W0005",
+            "plant_id": "PL012",
+            "date": "2026-04-19",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [],
+      "treatments": [
+        {
+          "id": "T025",
+          "plant_id": "PL012",
+          "date": "2026-04-12",
+          "type": "trattamento",
+          "description": "pulizia foglie per rimozione cocciniglia cotonosa",
+          "product": "olio di neem",
+          "outcome": "",
+          "note": "",
+          "text": "pulizia foglie per rimozione cocciniglia cotonosa — prodotto: olio di neem"
+        },
+        {
+          "id": "T005",
+          "plant_id": "PL012",
+          "date": "2026-04-06",
+          "type": "fertilizzazione",
+          "description": "innaffiato con fertilizzante per piante verdi",
+          "product": "fito concime piante verdi",
+          "outcome": "",
+          "note": "",
+          "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi"
+        }
+      ],
+      "events": [
+        {
+          "id": "E0003",
+          "plant_id": "PL012",
+          "date": "2026-04-12",
+          "category": "problema",
+          "type": "problem",
+          "text": "terreno idrofobico+radici fuori vaso+cocciniglia cotonosa",
+          "source": "diario"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL013",
+      "name": "Strelitzia augusta grigio",
+      "scientific": "strelitzia alba augusta",
+      "status": "problema",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "pieno sole",
+        "temperature": "16 – 24",
+        "temp_min": "16",
+        "temp_max": "24"
+      },
+      "watering": {
+        "rule": "lascia asciugare completamente",
+        "history": [
+          {
+            "id": "W0035",
+            "plant_id": "PL013",
+            "date": "2026-04-25",
+            "type": "parziale",
+            "note": ""
+          },
+          {
+            "id": "W0006",
+            "plant_id": "PL013",
+            "date": "2026-04-19",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [],
+      "treatments": [
+        {
+          "id": "T026",
+          "plant_id": "PL013",
+          "date": "2026-04-12",
+          "type": "trattamento",
+          "description": "pulizia foglie per rimozione cocciniglia cotonosa",
+          "product": "olio di neem",
+          "outcome": "",
+          "note": "",
+          "text": "pulizia foglie per rimozione cocciniglia cotonosa — prodotto: olio di neem"
+        },
+        {
+          "id": "T006",
+          "plant_id": "PL013",
+          "date": "2026-04-06",
+          "type": "fertilizzazione",
+          "description": "innaffiato con fertilizzante per piante verdi",
+          "product": "fito concime piante verdi",
+          "outcome": "",
+          "note": "",
+          "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi"
+        }
+      ],
+      "events": [
+        {
+          "id": "E0004",
+          "plant_id": "PL013",
+          "date": "2026-04-12",
+          "category": "problema",
+          "type": "problem",
+          "text": "terreno idrofobico+radici fuori vaso+cocciniglia cotonosa",
+          "source": "diario"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL014",
+      "name": "Strelitzia piccola",
+      "scientific": "strelitzia nicolai (forse)",
+      "status": "problema",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "pieno sole",
+        "temperature": "15 – 28",
+        "temp_min": "15",
+        "temp_max": "28"
+      },
+      "watering": {
+        "rule": "lascia asciugare completamente",
+        "history": [
+          {
+            "id": "W0036",
+            "plant_id": "PL014",
+            "date": "2026-04-25",
+            "type": "parziale",
+            "note": ""
+          },
+          {
+            "id": "W0007",
+            "plant_id": "PL014",
+            "date": "2026-04-19",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [],
+      "treatments": [
+        {
+          "id": "T027",
+          "plant_id": "PL014",
+          "date": "2026-04-12",
+          "type": "trattamento",
+          "description": "pulizia foglie per rimozione cocciniglia cotonosa",
+          "product": "olio di neem",
+          "outcome": "",
+          "note": "",
+          "text": "pulizia foglie per rimozione cocciniglia cotonosa — prodotto: olio di neem"
+        },
+        {
+          "id": "T007",
+          "plant_id": "PL014",
+          "date": "2026-04-06",
+          "type": "fertilizzazione",
+          "description": "innaffiato con fertilizzante per piante verdi",
+          "product": "fito concime piante verdi",
+          "outcome": "",
+          "note": "",
+          "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi"
+        }
+      ],
+      "events": [
+        {
+          "id": "E0005",
+          "plant_id": "PL014",
+          "date": "2026-04-12",
+          "category": "problema",
+          "type": "problem",
+          "text": "terreno idrofobico+radici fuori vaso+cocciniglia cotonosa",
+          "source": "diario"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL015",
+      "name": "Falangio smezzato",
+      "scientific": "chlorophytum comosum",
+      "status": "attenzione",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta",
+        "temperature": "18 – 25",
+        "temp_min": "18",
+        "temp_max": "25"
+      },
+      "watering": {
+        "rule": "lascia asciugare per metà",
+        "history": []
+      },
+      "repotting": [
+        {
+          "id": "R0006",
+          "plant_id": "PL015",
+          "date": "2026-04-18",
+          "previous_pot": "13",
+          "new_pot": "11",
+          "substrate": "60teun+30pomi+10bark",
+          "note": "parte di pianta madre malmessa"
+        }
+      ],
+      "treatments": [
+        {
+          "id": "T008",
+          "plant_id": "PL015",
+          "date": "2026-04-06",
+          "type": "fertilizzazione",
+          "description": "innaffiato con fertilizzante per piante verdi",
+          "product": "fito concime piante verdi",
+          "outcome": "",
+          "note": "",
+          "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi"
+        }
+      ],
+      "events": [
+        {
+          "id": "R0006",
+          "plant_id": "PL015",
+          "date": "2026-04-18",
+          "type": "repot",
+          "text": "rinvaso vaso 13 → 11 | substrato: 60teun+30pomi+10bark | parte di pianta madre malmessa",
+          "source": "rinvasi"
+        },
+        {
+          "id": "E0006",
+          "plant_id": "PL015",
+          "date": "2026-04-12",
+          "category": "problema",
+          "type": "problem",
+          "text": "terreno idrofobico+radici fuori+figli colonizzatori",
+          "source": "diario"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL016",
+      "name": "Callisia Repens",
+      "scientific": "callisia repens rosato",
+      "status": "ok",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta",
+        "temperature": "10 – 30",
+        "temp_min": "10",
+        "temp_max": "30"
+      },
+      "watering": {
+        "rule": "lascia asciugare per metà",
+        "history": []
+      },
+      "repotting": [
+        {
+          "id": "R0008",
+          "plant_id": "PL016",
+          "date": "2026-04-18",
+          "previous_pot": "16",
+          "new_pot": "idro",
+          "substrate": "acqua + sassi",
+          "note": "metà cespuglio morto"
+        },
+        {
+          "id": "R0013",
+          "plant_id": "PL016",
+          "date": "2024-03-15",
+          "previous_pot": "N/A",
+          "new_pot": "N/A",
+          "substrate": "N/A",
+          "note": "balconetta separata"
+        }
+      ],
+      "treatments": [
+        {
+          "id": "T009",
+          "plant_id": "PL016",
+          "date": "2026-04-06",
+          "type": "fertilizzazione",
+          "description": "innaffiato con fertilizzante per piante verdi",
+          "product": "fito concime piante verdi",
+          "outcome": "",
+          "note": "",
+          "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi"
+        }
+      ],
+      "events": [
+        {
+          "id": "R0008",
+          "plant_id": "PL016",
+          "date": "2026-04-18",
+          "type": "repot",
+          "text": "rinvaso vaso 16 → idro | substrato: acqua + sassi | metà cespuglio morto",
+          "source": "rinvasi"
+        },
+        {
+          "id": "E0007",
+          "plant_id": "PL016",
+          "date": "2026-04-12",
+          "category": "osservazione",
+          "type": "osservazione",
+          "text": "metà pianta secca e rovinata",
+          "source": "diario"
+        },
+        {
+          "id": "R0013",
+          "plant_id": "PL016",
+          "date": "2024-03-15",
+          "type": "repot",
+          "text": "rinvaso vaso N/A → N/A | substrato: N/A | balconetta separata",
+          "source": "rinvasi"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL017",
+      "name": "Philodendro rosa",
+      "scientific": "philodendron pink princess",
+      "status": "attenzione",
+      "meta": {
+        "origin": "acquisto",
+        "date": "2025-12-15",
+        "place": "Giardineria",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta luminosa",
+        "temperature": "18 – 27",
+        "temp_min": "18",
+        "temp_max": "27"
+      },
+      "watering": {
+        "rule": "mantieni leggermente umido",
+        "history": []
+      },
+      "repotting": [],
+      "treatments": [],
+      "events": [
+        {
+          "id": "E0033",
+          "plant_id": "PL017",
+          "date": "2026-04-26",
+          "category": "osservazione",
+          "type": "osservazione",
+          "text": "la pianta non sta bene, foglie arricciate e crescita stentata",
+          "source": "diario"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL018",
+      "name": "Tradescantia rosa",
+      "scientific": "tradescantia zebrina rosa",
+      "status": "ok",
+      "meta": {
+        "origin": "talea",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta luminosa",
+        "temperature": "17 – 24",
+        "temp_min": "17",
+        "temp_max": "24"
+      },
+      "watering": {
+        "rule": "lascia asciugare completamente",
+        "history": []
+      },
+      "repotting": [
+        {
+          "id": "R0017",
+          "plant_id": "PL018",
+          "date": "2024-04-04",
+          "previous_pot": "N/A",
+          "new_pot": "N/A",
+          "substrate": "terra universale",
+          "note": "pianta mezza morta, talee in terra"
+        }
+      ],
+      "treatments": [],
+      "events": [
+        {
+          "id": "R0017",
+          "plant_id": "PL018",
+          "date": "2024-04-04",
+          "type": "repot",
+          "text": "rinvaso vaso N/A → N/A | substrato: terra universale | pianta mezza morta, talee in terra",
+          "source": "rinvasi"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL019",
+      "name": "Tradescantia bianca",
+      "scientific": "tradescantia fluminensis albovittata",
+      "status": "ok",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta luminosa",
+        "temperature": "15 – 25",
+        "temp_min": "15",
+        "temp_max": "25"
+      },
+      "watering": {
+        "rule": "lascia asciugare completamente",
+        "history": [
+          {
+            "id": "W0039",
+            "plant_id": "PL019",
+            "date": "2026-04-25",
+            "type": "parziale",
+            "note": ""
+          },
+          {
+            "id": "W0018",
+            "plant_id": "PL019",
+            "date": "2026-04-19",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [],
+      "treatments": [
+        {
+          "id": "T010",
+          "plant_id": "PL019",
+          "date": "2026-04-06",
+          "type": "fertilizzazione",
+          "description": "innaffiato con fertilizzante per piante verdi",
+          "product": "fito concime piante verdi",
+          "outcome": "",
+          "note": "",
+          "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi"
+        }
+      ],
+      "events": [
+        {
+          "id": "E0008",
+          "plant_id": "PL019",
+          "date": "2026-04-12",
+          "category": "osservazione",
+          "type": "osservazione",
+          "text": "terreno idrofobico",
+          "source": "diario"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL020",
+      "name": "Hoya",
+      "scientific": "hoya carnosa tricolor",
+      "status": "problema",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta luminosa",
+        "temperature": "10 – 35",
+        "temp_min": "10",
+        "temp_max": "35"
+      },
+      "watering": {
+        "rule": "lascia asciugare completamente",
+        "history": []
+      },
+      "repotting": [],
+      "treatments": [
+        {
+          "id": "T011",
+          "plant_id": "PL020",
+          "date": "2026-04-06",
+          "type": "fertilizzazione",
+          "description": "innaffiato con fertilizzante per piante verdi",
+          "product": "fito concime piante verdi",
+          "outcome": "",
+          "note": "",
+          "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi"
+        }
+      ],
+      "events": [
+        {
+          "id": "E0009",
+          "plant_id": "PL020",
+          "date": "2026-04-12",
+          "category": "osservazione",
+          "type": "osservazione",
+          "text": "terreno idrofobico",
+          "source": "diario"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL021",
+      "name": "Beucarnea baby",
+      "scientific": "beucarnea recurvata",
+      "status": "ok",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "pieno sole",
+        "temperature": "15 – 30",
+        "temp_min": "15",
+        "temp_max": "30"
+      },
+      "watering": {
+        "rule": "lascia asciugare completamente",
+        "history": [
+          {
+            "id": "W0040",
+            "plant_id": "PL021",
+            "date": "2026-04-25",
+            "type": "parziale",
+            "note": ""
+          },
+          {
+            "id": "W0017",
+            "plant_id": "PL021",
+            "date": "2026-04-19",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [],
+      "treatments": [],
+      "events": [],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL022",
+      "name": "Marantha",
+      "scientific": "maranta leuconera",
+      "status": "ok",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "mezzombra",
+        "temperature": "18 – 24",
+        "temp_min": "18",
+        "temp_max": "24"
+      },
+      "watering": {
+        "rule": "lascia asciugare per metà",
+        "history": [
+          {
+            "id": "W0041",
+            "plant_id": "PL022",
+            "date": "2026-04-25",
+            "type": "parziale",
+            "note": ""
+          },
+          {
+            "id": "W0016",
+            "plant_id": "PL022",
+            "date": "2026-04-19",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [],
+      "treatments": [
+        {
+          "id": "T012",
+          "plant_id": "PL022",
+          "date": "2026-04-06",
+          "type": "fertilizzazione",
+          "description": "innaffiato con fertilizzante per piante verdi",
+          "product": "fito concime piante verdi",
+          "outcome": "",
+          "note": "",
+          "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi"
+        }
+      ],
+      "events": [
+        {
+          "id": "E0010",
+          "plant_id": "PL022",
+          "date": "2026-04-12",
+          "category": "osservazione",
+          "type": "osservazione",
+          "text": "da rinvasare con calma",
+          "source": "diario"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL023",
+      "name": "Marantha baby idro",
+      "scientific": "maranta leuconera",
+      "status": "attenzione",
+      "meta": {
+        "origin": "talea",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "mezzombra",
+        "temperature": "18 – 24",
+        "temp_min": "18",
+        "temp_max": "24"
+      },
+      "watering": {
+        "rule": "lascia asciugare per metà",
+        "history": []
+      },
+      "repotting": [],
+      "treatments": [],
+      "events": [],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL024",
+      "name": "Monstera monkey",
+      "scientific": "monstera adansonii",
+      "status": "ok",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta luminosa",
+        "temperature": "18 – 27",
+        "temp_min": "18",
+        "temp_max": "27"
+      },
+      "watering": {
+        "rule": "mantieni leggermente umido",
+        "history": [
+          {
+            "id": "W0042",
+            "plant_id": "PL024",
+            "date": "2026-04-25",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [
+        {
+          "id": "R0014",
+          "plant_id": "PL024",
+          "date": "2024-03-15",
+          "previous_pot": "N/A",
+          "new_pot": "N/A",
+          "substrate": "N/A",
+          "note": "balconetta separata"
+        }
+      ],
+      "treatments": [],
+      "events": [
+        {
+          "id": "R0014",
+          "plant_id": "PL024",
+          "date": "2024-03-15",
+          "type": "repot",
+          "text": "rinvaso vaso N/A → N/A | substrato: N/A | balconetta separata",
+          "source": "rinvasi"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL025",
+      "name": "Pilea baby",
+      "scientific": "pilea peperomioides",
+      "status": "ok",
+      "meta": {
+        "origin": "talea",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta luminosa",
+        "temperature": "15 – 25",
+        "temp_min": "15",
+        "temp_max": "25"
+      },
+      "watering": {
+        "rule": "lascia asciugare completamente",
+        "history": [
+          {
+            "id": "W0043",
+            "plant_id": "PL025",
+            "date": "2026-04-25",
+            "type": "parziale",
+            "note": ""
+          },
+          {
+            "id": "W0009",
+            "plant_id": "PL025",
+            "date": "2026-04-19",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [],
+      "treatments": [],
+      "events": [],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL026",
+      "name": "Pilea baby",
+      "scientific": "pilea peperomioides",
+      "status": "ok",
+      "meta": {
+        "origin": "talea",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta luminosa",
+        "temperature": "15 – 25",
+        "temp_min": "15",
+        "temp_max": "25"
+      },
+      "watering": {
+        "rule": "lascia asciugare completamente",
+        "history": [
+          {
+            "id": "W0044",
+            "plant_id": "PL026",
+            "date": "2026-04-25",
+            "type": "parziale",
+            "note": ""
+          },
+          {
+            "id": "W0010",
+            "plant_id": "PL026",
+            "date": "2026-04-19",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [],
+      "treatments": [],
+      "events": [],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL027",
+      "name": "Pilea baby",
+      "scientific": "pilea peperomioides",
+      "status": "ok",
+      "meta": {
+        "origin": "talea",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta luminosa",
+        "temperature": "15 – 25",
+        "temp_min": "15",
+        "temp_max": "25"
+      },
+      "watering": {
+        "rule": "lascia asciugare completamente",
+        "history": [
+          {
+            "id": "W0045",
+            "plant_id": "PL027",
+            "date": "2026-04-25",
+            "type": "parziale",
+            "note": ""
+          },
+          {
+            "id": "W0011",
+            "plant_id": "PL027",
+            "date": "2026-04-19",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [],
+      "treatments": [],
+      "events": [],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL028",
+      "name": "Dracena Fragrans",
+      "scientific": "dracaena fragrans",
+      "status": "problema",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta luminosa",
+        "temperature": "17 – 25",
+        "temp_min": "17",
+        "temp_max": "25"
+      },
+      "watering": {
+        "rule": "lascia asciugare per metà",
+        "history": [
+          {
+            "id": "W0046",
+            "plant_id": "PL028",
+            "date": "2026-04-25",
+            "type": "parziale",
+            "note": ""
+          },
+          {
+            "id": "W0015",
+            "plant_id": "PL028",
+            "date": "2026-04-19",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [],
+      "treatments": [
+        {
+          "id": "T013",
+          "plant_id": "PL028",
+          "date": "2026-04-06",
+          "type": "fertilizzazione",
+          "description": "innaffiato con fertilizzante per piante verdi",
+          "product": "fito concime piante verdi",
+          "outcome": "",
+          "note": "",
+          "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi"
+        }
+      ],
+      "events": [
+        {
+          "id": "E0011",
+          "plant_id": "PL028",
+          "date": "2026-04-12",
+          "category": "osservazione",
+          "type": "osservazione",
+          "text": "terreno idrofobico",
+          "source": "diario"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL029",
+      "name": "Pilea",
+      "scientific": "pilea peperomioides",
+      "status": "attenzione",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta luminosa",
+        "temperature": "15 – 25",
+        "temp_min": "15",
+        "temp_max": "25"
+      },
+      "watering": {
+        "rule": "lascia asciugare completamente",
+        "history": [
+          {
+            "id": "W0047",
+            "plant_id": "PL029",
+            "date": "2026-04-25",
+            "type": "parziale",
+            "note": ""
+          },
+          {
+            "id": "W0012",
+            "plant_id": "PL029",
+            "date": "2026-04-19",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [],
+      "treatments": [
+        {
+          "id": "T014",
+          "plant_id": "PL029",
+          "date": "2026-04-06",
+          "type": "fertilizzazione",
+          "description": "innaffiato con fertilizzante per piante verdi",
+          "product": "fito concime piante verdi",
+          "outcome": "",
+          "note": "",
+          "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi"
+        }
+      ],
+      "events": [
+        {
+          "id": "E0012",
+          "plant_id": "PL029",
+          "date": "2026-04-12",
+          "category": "osservazione",
+          "type": "osservazione",
+          "text": "sembra riprendersi da travaso",
+          "source": "diario"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL030",
+      "name": "Aspidistra",
+      "scientific": "aspidistra elatior",
+      "status": "attenzione",
+      "meta": {
+        "origin": "regalo",
+        "date": "2023-01-01",
+        "place": "Ikea",
+        "price": "N/A",
+        "photo": "N/A",
+        "light": "mezzombra",
+        "temperature": "10 – 21",
+        "temp_min": "10",
+        "temp_max": "21"
+      },
+      "watering": {
+        "rule": "lascia asciugare completamente",
+        "history": [
+          {
+            "id": "W0048",
+            "plant_id": "PL030",
+            "date": "2026-04-25",
+            "type": "parziale",
+            "note": ""
+          },
+          {
+            "id": "W0013",
+            "plant_id": "PL030",
+            "date": "2026-04-19",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [],
+      "treatments": [
+        {
+          "id": "T015",
+          "plant_id": "PL030",
+          "date": "2026-04-06",
+          "type": "fertilizzazione",
+          "description": "innaffiato con fertilizzante per piante verdi",
+          "product": "fito concime piante verdi",
+          "outcome": "",
+          "note": "",
+          "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi"
+        }
+      ],
+      "events": [
+        {
+          "id": "E0013",
+          "plant_id": "PL030",
+          "date": "2026-04-12",
+          "category": "osservazione",
+          "type": "osservazione",
+          "text": "spuntano nuovi fusti dopo rasatura, passare a vaso più piccolo",
+          "source": "diario"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL031",
+      "name": "Calathea vaso viola",
+      "scientific": "calathea white fusion",
+      "status": "ok",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta luminosa",
+        "temperature": "18 – 26",
+        "temp_min": "18",
+        "temp_max": "26"
+      },
+      "watering": {
+        "rule": "mantieni leggermente umido",
+        "history": [
+          {
+            "id": "W0049",
+            "plant_id": "PL031",
+            "date": "2026-04-25",
+            "type": "parziale",
+            "note": ""
+          },
+          {
+            "id": "W0014",
+            "plant_id": "PL031",
+            "date": "2026-04-19",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [],
+      "treatments": [],
+      "events": [],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL032",
+      "name": "Spatifillo",
+      "scientific": "spathiphyllum",
+      "status": "ok",
+      "meta": {
+        "origin": "acquisto",
+        "date": "2025-03-08",
+        "place": "Esselunga",
+        "price": "25",
+        "photo": "N/A",
+        "light": "luce indiretta",
+        "temperature": "18 – 25",
+        "temp_min": "18",
+        "temp_max": "25"
+      },
+      "watering": {
+        "rule": "mantieni leggermente umido",
+        "history": []
+      },
+      "repotting": [
+        {
+          "id": "R0007",
+          "plant_id": "PL032",
+          "date": "2026-04-18",
+          "previous_pot": "18",
+          "new_pot": "14",
+          "substrate": "60teun+30pomi+20bark",
+          "note": "alcune radici marce rimosse"
+        }
+      ],
+      "treatments": [
+        {
+          "id": "T016",
+          "plant_id": "PL032",
+          "date": "2026-04-06",
+          "type": "fertilizzazione",
+          "description": "innaffiato con fertilizzante per piante verdi",
+          "product": "fito concime piante verdi",
+          "outcome": "",
+          "note": "",
+          "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi"
+        }
+      ],
+      "events": [
+        {
+          "id": "R0007",
+          "plant_id": "PL032",
+          "date": "2026-04-18",
+          "type": "repot",
+          "text": "rinvaso vaso 18 → 14 | substrato: 60teun+30pomi+20bark | alcune radici marce rimosse",
+          "source": "rinvasi"
+        },
+        {
+          "id": "E0014",
+          "plant_id": "PL032",
+          "date": "2026-04-12",
+          "category": "problema",
+          "type": "problem",
+          "text": "terreno idrofobico, da rinvasare",
+          "source": "diario"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL033",
+      "name": "Adenium",
+      "scientific": "adenium obesum",
+      "status": "problema",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "pieno sole",
+        "temperature": "12 – 35",
+        "temp_min": "12",
+        "temp_max": "35"
+      },
+      "watering": {
+        "rule": "lascia asciugare completamente",
+        "history": [
+          {
+            "id": "W0050",
+            "plant_id": "PL033",
+            "date": "2026-04-25",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [],
+      "treatments": [
+        {
+          "id": "T002",
+          "plant_id": "PL033",
+          "date": "2026-04-06",
+          "type": "trattamento",
+          "description": "pulizia foglie per rimozione cocciniglia scudetto",
+          "product": "sanium",
+          "outcome": "",
+          "note": "",
+          "text": "pulizia foglie per rimozione cocciniglia scudetto — prodotto: sanium"
+        },
+        {
+          "id": "T017",
+          "plant_id": "PL033",
+          "date": "2026-04-06",
+          "type": "fertilizzazione",
+          "description": "innaffiato con fertilizzante per piante verdi",
+          "product": "fito concime piante verdi",
+          "outcome": "",
+          "note": "",
+          "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi"
+        }
+      ],
+      "events": [
+        {
+          "id": "E0015",
+          "plant_id": "PL033",
+          "date": "2026-04-12",
+          "category": "problema",
+          "type": "problem",
+          "text": "cocciniglia scudetto+terreno idrofobico",
+          "source": "diario"
+        }
+      ],
+      "substrate": "",
+      "notes": "pianta grassa!"
+    },
+    {
+      "id": "PL034",
+      "name": "Avocado big",
+      "scientific": "persea americana",
+      "status": "attenzione",
+      "meta": {
+        "origin": "talea",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "pieno sole",
+        "temperature": "15 – 30",
+        "temp_min": "15",
+        "temp_max": "30"
+      },
+      "watering": {
+        "rule": "lascia asciugare per metà",
+        "history": [
+          {
+            "id": "W0051",
+            "plant_id": "PL034",
+            "date": "2026-04-25",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [],
+      "treatments": [
+        {
+          "id": "T018",
+          "plant_id": "PL034",
+          "date": "2026-04-06",
+          "type": "fertilizzazione",
+          "description": "innaffiato con fertilizzante per piante verdi",
+          "product": "fito concime piante verdi",
+          "outcome": "",
+          "note": "",
+          "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi"
+        }
+      ],
+      "events": [
+        {
+          "id": "E0032",
+          "plant_id": "PL034",
+          "date": "2026-04-19",
+          "category": "problema",
+          "type": "problem",
+          "text": "notate le foglie superiori con bordi bruciati - allontanato da lampada",
+          "source": "diario"
+        },
+        {
+          "id": "E0016",
+          "plant_id": "PL034",
+          "date": "2026-04-12",
+          "category": "osservazione",
+          "type": "osservazione",
+          "text": "cresciuto in idro, da mettere in terra",
+          "source": "diario"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL035",
+      "name": "Avocado",
+      "scientific": "persea americana",
+      "status": "ok",
+      "meta": {
+        "origin": "talea",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "pieno sole",
+        "temperature": "15 – 30",
+        "temp_min": "15",
+        "temp_max": "30"
+      },
+      "watering": {
+        "rule": "lascia asciugare per metà",
+        "history": []
+      },
+      "repotting": [],
+      "treatments": [],
+      "events": [],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL036",
+      "name": "Avocado",
+      "scientific": "persea americana",
+      "status": "ok",
+      "meta": {
+        "origin": "talea",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "pieno sole",
+        "temperature": "15 – 30",
+        "temp_min": "15",
+        "temp_max": "30"
+      },
+      "watering": {
+        "rule": "lascia asciugare per metà",
+        "history": []
+      },
+      "repotting": [],
+      "treatments": [],
+      "events": [],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL037",
+      "name": "Syngonium pink",
+      "scientific": "syngonium neon pink",
+      "status": "problema",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta",
+        "temperature": "15 – 25",
+        "temp_min": "15",
+        "temp_max": "25"
+      },
+      "watering": {
+        "rule": "lascia asciugare per metà",
+        "history": [
+          {
+            "id": "W0037",
+            "plant_id": "PL037",
+            "date": "2026-04-25",
+            "type": "parziale",
+            "note": ""
+          },
+          {
+            "id": "W0008",
+            "plant_id": "PL037",
+            "date": "2026-04-19",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [],
+      "treatments": [
+        {
+          "id": "T019",
+          "plant_id": "PL037",
+          "date": "2026-04-06",
+          "type": "fertilizzazione",
+          "description": "innaffiato con fertilizzante per piante verdi",
+          "product": "fito concime piante verdi",
+          "outcome": "",
+          "note": "",
+          "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi"
+        }
+      ],
+      "events": [
+        {
+          "id": "E0017",
+          "plant_id": "PL037",
+          "date": "2026-04-12",
+          "category": "problema",
+          "type": "problem",
+          "text": "terreno idrofobico+afidi da mesi",
+          "source": "diario"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL038",
+      "name": "Monsterona",
+      "scientific": "monstera deliciosa",
+      "status": "attenzione",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta luminosa",
+        "temperature": "18 – 25",
+        "temp_min": "18",
+        "temp_max": "25"
+      },
+      "watering": {
+        "rule": "lascia asciugare per metà",
+        "history": [
+          {
+            "id": "W0038",
+            "plant_id": "PL038",
+            "date": "2026-04-25",
+            "type": "parziale",
+            "note": ""
+          },
+          {
+            "id": "W0019",
+            "plant_id": "PL038",
+            "date": "2026-04-19",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [
+        {
+          "id": "R0015",
+          "plant_id": "PL038",
+          "date": "2024-03-15",
+          "previous_pot": "N/A",
+          "new_pot": "N/A",
+          "substrate": "N/A",
+          "note": "monstera con strabordo radici"
+        }
+      ],
+      "treatments": [
+        {
+          "id": "T020",
+          "plant_id": "PL038",
+          "date": "2026-04-06",
+          "type": "fertilizzazione",
+          "description": "innaffiato con fertilizzante per piante verdi",
+          "product": "fito concime piante verdi",
+          "outcome": "",
+          "note": "",
+          "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi"
+        }
+      ],
+      "events": [
+        {
+          "id": "E0018",
+          "plant_id": "PL038",
+          "date": "2026-04-12",
+          "category": "osservazione",
+          "type": "osservazione",
+          "text": "foglia gialla+bordi neri, post rinvaso",
+          "source": "diario"
+        },
+        {
+          "id": "R0015",
+          "plant_id": "PL038",
+          "date": "2024-03-15",
+          "type": "repot",
+          "text": "rinvaso vaso N/A → N/A | substrato: N/A | monstera con strabordo radici",
+          "source": "rinvasi"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL039",
+      "name": "Anthurium",
+      "scientific": "anthurium",
+      "status": "ok",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta luminosa",
+        "temperature": "17 – 28",
+        "temp_min": "17",
+        "temp_max": "28"
+      },
+      "watering": {
+        "rule": "lascia asciugare per metà",
+        "history": [
+          {
+            "id": "W0020",
+            "plant_id": "PL039",
+            "date": "2026-04-19",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [],
+      "treatments": [],
+      "events": [],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL040",
+      "name": "Pothos",
+      "scientific": "epipremnum aureum",
+      "status": "attenzione",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta",
+        "temperature": "14 – 26",
+        "temp_min": "14",
+        "temp_max": "26"
+      },
+      "watering": {
+        "rule": "lascia asciugare per metà",
+        "history": [
+          {
+            "id": "W0052",
+            "plant_id": "PL040",
+            "date": "2026-04-25",
+            "type": "parziale",
+            "note": ""
+          },
+          {
+            "id": "W0021",
+            "plant_id": "PL040",
+            "date": "2026-04-19",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [],
+      "treatments": [
+        {
+          "id": "T021",
+          "plant_id": "PL040",
+          "date": "2026-04-06",
+          "type": "fertilizzazione",
+          "description": "innaffiato con fertilizzante per piante verdi",
+          "product": "fito concime piante verdi",
+          "outcome": "",
+          "note": "",
+          "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi"
+        }
+      ],
+      "events": [
+        {
+          "id": "E0019",
+          "plant_id": "PL040",
+          "date": "2026-04-12",
+          "category": "osservazione",
+          "type": "osservazione",
+          "text": "campa ma sarà da rinvasare con calma",
+          "source": "diario"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL041",
+      "name": "Tradescantia mix",
+      "scientific": "tradescantia",
+      "status": "problema",
+      "meta": {
+        "origin": "talea",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "mezzombra",
+        "temperature": "15 – 25",
+        "temp_min": "15",
+        "temp_max": "25"
+      },
+      "watering": {
+        "rule": "lascia asciugare completamente",
+        "history": [
+          {
+            "id": "W0053",
+            "plant_id": "PL041",
+            "date": "2026-04-25",
+            "type": "parziale",
+            "note": ""
+          },
+          {
+            "id": "W0022",
+            "plant_id": "PL041",
+            "date": "2026-04-19",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [],
+      "treatments": [
+        {
+          "id": "T022",
+          "plant_id": "PL041",
+          "date": "2026-04-06",
+          "type": "fertilizzazione",
+          "description": "innaffiato con fertilizzante per piante verdi",
+          "product": "fito concime piante verdi",
+          "outcome": "",
+          "note": "",
+          "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi"
+        }
+      ],
+      "events": [
+        {
+          "id": "E0020",
+          "plant_id": "PL041",
+          "date": "2026-04-12",
+          "category": "osservazione",
+          "type": "osservazione",
+          "text": "capire cosa fare, rinvasare? Fare talee? Buttare?",
+          "source": "diario"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL042",
+      "name": "Cyperus",
+      "scientific": "cyperus alternifolius",
+      "status": "ok",
+      "meta": {
+        "origin": "regalo",
+        "date": "2026-04-03",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta",
+        "temperature": "17 – 27",
+        "temp_min": "17",
+        "temp_max": "27"
+      },
+      "watering": {
+        "rule": "mantieni leggermente umido",
+        "history": [
+          {
+            "id": "W0054",
+            "plant_id": "PL042",
+            "date": "2026-04-25",
+            "type": "parziale",
+            "note": ""
+          },
+          {
+            "id": "W0023",
+            "plant_id": "PL042",
+            "date": "2026-04-19",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [],
+      "treatments": [],
+      "events": [],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL043",
+      "name": "Cytisus",
+      "scientific": "cytisus racemosus",
+      "status": "problema",
+      "meta": {
+        "origin": "regalo",
+        "date": "2026-04-05",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "pieno sole",
+        "temperature": "7 – 20",
+        "temp_min": "7",
+        "temp_max": "20"
+      },
+      "watering": {
+        "rule": "lascia asciugare completamente",
+        "history": []
+      },
+      "repotting": [],
+      "treatments": [
+        {
+          "id": "T023",
+          "plant_id": "PL043",
+          "date": "2026-04-06",
+          "type": "fertilizzazione",
+          "description": "innaffiato con fertilizzante per piante verdi",
+          "product": "fito concime piante verdi",
+          "outcome": "",
+          "note": "",
+          "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi"
+        }
+      ],
+      "events": [
+        {
+          "id": "E0021",
+          "plant_id": "PL043",
+          "date": "2026-04-12",
+          "category": "problema",
+          "type": "problem",
+          "text": "rinvasare perchè terra idrofobica, pianta nuova",
+          "source": "diario"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL044",
+      "name": "Eucalipto",
+      "scientific": "eucalipto gunnii",
+      "status": "problema",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "pieno sole",
+        "temperature": "-10 – 30",
+        "temp_min": "-10",
+        "temp_max": "30"
+      },
+      "watering": {
+        "rule": "lascia asciugare completamente",
+        "history": [
+          {
+            "id": "W0055",
+            "plant_id": "PL044",
+            "date": "2026-04-25",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [],
+      "treatments": [
+        {
+          "id": "T001",
+          "plant_id": "PL044",
+          "date": "2026-04-04",
+          "type": "trattamento",
+          "description": "potatura parti morte",
+          "product": "",
+          "outcome": "",
+          "note": "",
+          "text": "potatura parti morte"
+        }
+      ],
+      "events": [
+        {
+          "id": "E0022",
+          "plant_id": "PL044",
+          "date": "2026-04-12",
+          "category": "problema",
+          "type": "problem",
+          "text": "terreno idrofobico + ridurre vaso?",
+          "source": "diario"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL045",
+      "name": "Pothos mint",
+      "scientific": "epipremnum aureum",
+      "status": "ok",
+      "meta": {
+        "origin": "acquisto",
+        "date": "2026-04-12",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta luminosa",
+        "temperature": "15 – 25",
+        "temp_min": "15",
+        "temp_max": "25"
+      },
+      "watering": {
+        "rule": "lascia asciugare completamente",
+        "history": [
+          {
+            "id": "W0056",
+            "plant_id": "PL045",
+            "date": "2026-04-26",
+            "type": "completa",
+            "note": ""
+          },
+          {
+            "id": "W0024",
+            "plant_id": "PL045",
+            "date": "2026-04-19",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [
+        {
+          "id": "R0018",
+          "plant_id": "PL045",
+          "date": "2024-04-12",
+          "previous_pot": "N/A",
+          "new_pot": "9",
+          "substrate": "N/A + palo sfagno",
+          "note": ""
+        }
+      ],
+      "treatments": [],
+      "events": [
+        {
+          "id": "R0018",
+          "plant_id": "PL045",
+          "date": "2024-04-12",
+          "type": "repot",
+          "text": "rinvaso vaso N/A → 9 | substrato: N/A + palo sfagno",
+          "source": "rinvasi"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL046",
+      "name": "Dieffenbachia",
+      "scientific": "dieffenbachia",
+      "status": "problema",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta luminosa",
+        "temperature": "18 – 25",
+        "temp_min": "18",
+        "temp_max": "25"
+      },
+      "watering": {
+        "rule": "lascia asciugare per metà",
+        "history": []
+      },
+      "repotting": [
+        {
+          "id": "R0016",
+          "plant_id": "PL046",
+          "date": "2024-03-15",
+          "previous_pot": "N/A",
+          "new_pot": "N/A",
+          "substrate": "N/A",
+          "note": "balconetta separata"
+        }
+      ],
+      "treatments": [],
+      "events": [
+        {
+          "id": "E0029",
+          "plant_id": "PL046",
+          "date": "2026-04-19",
+          "category": "problema",
+          "type": "problem",
+          "text": "pianta zuppa da innaffio precedente, circa 1 settimana",
+          "source": "diario"
+        },
+        {
+          "id": "E0023",
+          "plant_id": "PL046",
+          "date": "2026-04-12",
+          "category": "osservazione",
+          "type": "osservazione",
+          "text": "forse vaso troppo grande",
+          "source": "diario"
+        },
+        {
+          "id": "R0016",
+          "plant_id": "PL046",
+          "date": "2024-03-15",
+          "type": "repot",
+          "text": "rinvaso vaso N/A → N/A | substrato: N/A | balconetta separata",
+          "source": "rinvasi"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL047",
+      "name": "Pothos 'njoy",
+      "scientific": "scindapsus n'joy",
+      "status": "attenzione",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta luminosa",
+        "temperature": "18 – 25",
+        "temp_min": "18",
+        "temp_max": "25"
+      },
+      "watering": {
+        "rule": "lascia asciugare per metà",
+        "history": [
+          {
+            "id": "W0057",
+            "plant_id": "PL047",
+            "date": "2026-04-26",
+            "type": "completa",
+            "note": ""
+          },
+          {
+            "id": "W0025",
+            "plant_id": "PL047",
+            "date": "2026-04-19",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [],
+      "treatments": [],
+      "events": [
+        {
+          "id": "E0024",
+          "plant_id": "PL047",
+          "date": "2026-04-12",
+          "category": "osservazione",
+          "type": "osservazione",
+          "text": "da rinvasare con calma",
+          "source": "diario"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL048",
+      "name": "Calathea vaso rosa",
+      "scientific": "calathea white fusion",
+      "status": "ok",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta luminosa",
+        "temperature": "18 – 26",
+        "temp_min": "18",
+        "temp_max": "26"
+      },
+      "watering": {
+        "rule": "mantieni leggermente umido",
+        "history": [
+          {
+            "id": "W0058",
+            "plant_id": "PL048",
+            "date": "2026-04-26",
+            "type": "completa",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [],
+      "treatments": [],
+      "events": [],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL049",
+      "name": "Syngonium green",
+      "scientific": "syngonium podophyllum green arrow",
+      "status": "problema",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta",
+        "temperature": "15 – 25",
+        "temp_min": "15",
+        "temp_max": "25"
+      },
+      "watering": {
+        "rule": "lascia asciugare per metà",
+        "history": [
+          {
+            "id": "W0059",
+            "plant_id": "PL049",
+            "date": "2026-04-26",
+            "type": "completa",
+            "note": ""
+          },
+          {
+            "id": "W0026",
+            "plant_id": "PL049",
+            "date": "2026-04-19",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [],
+      "treatments": [],
+      "events": [
+        {
+          "id": "E0025",
+          "plant_id": "PL049",
+          "date": "2026-04-12",
+          "category": "problema",
+          "type": "problem",
+          "text": "vaso quasi rootbound, da rinvasare",
+          "source": "diario"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL050",
+      "name": "Philodendro birkin",
+      "scientific": "philodendron birkin",
+      "status": "attenzione",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta luminosa",
+        "temperature": "18 – 25",
+        "temp_min": "18",
+        "temp_max": "25"
+      },
+      "watering": {
+        "rule": "mantieni leggermente umido",
+        "history": []
+      },
+      "repotting": [],
+      "treatments": [],
+      "events": [
+        {
+          "id": "E0026",
+          "plant_id": "PL050",
+          "date": "2026-04-12",
+          "category": "osservazione",
+          "type": "osservazione",
+          "text": "dare palo di sfagno con calma",
+          "source": "diario"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL051",
+      "name": "ZZ",
+      "scientific": "zamioculcas zamiifolia",
+      "status": "ok",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta",
+        "temperature": "18 – 25",
+        "temp_min": "18",
+        "temp_max": "25"
+      },
+      "watering": {
+        "rule": "lascia asciugare completamente",
+        "history": []
+      },
+      "repotting": [],
+      "treatments": [],
+      "events": [],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL052",
+      "name": "Sanseviera",
+      "scientific": "sansevieria",
+      "status": "attenzione",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta",
+        "temperature": "15 – 25",
+        "temp_min": "15",
+        "temp_max": "25"
+      },
+      "watering": {
+        "rule": "lascia asciugare completamente",
+        "history": []
+      },
+      "repotting": [],
+      "treatments": [],
+      "events": [
+        {
+          "id": "E0030",
+          "plant_id": "PL052",
+          "date": "2026-04-19",
+          "category": "problema",
+          "type": "problem",
+          "text": "pianta zuppa da innaffio precedente, circa 1 settimana",
+          "source": "diario"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL053",
+      "name": "Peperomia variegata",
+      "scientific": "peperomia obtusifolia variegata",
+      "status": "problema",
+      "meta": {
+        "origin": "regalo",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta luminosa",
+        "temperature": "12 – 24",
+        "temp_min": "12",
+        "temp_max": "24"
+      },
+      "watering": {
+        "rule": "lascia asciugare completamente",
+        "history": [
+          {
+            "id": "W0060",
+            "plant_id": "PL053",
+            "date": "2026-04-26",
+            "type": "completa",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [],
+      "treatments": [],
+      "events": [
+        {
+          "id": "E0027",
+          "plant_id": "PL053",
+          "date": "2026-04-12",
+          "category": "problema",
+          "type": "problem",
+          "text": "terreno idrofobico",
+          "source": "diario"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL054",
+      "name": "Pothos con palo",
+      "scientific": "epipremnum aureum",
+      "status": "ok",
+      "meta": {
+        "origin": "talea",
+        "date": "2026-04-12",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta",
+        "temperature": "14 – 26",
+        "temp_min": "14",
+        "temp_max": "26"
+      },
+      "watering": {
+        "rule": "lascia asciugare per metà",
+        "history": [
+          {
+            "id": "W0061",
+            "plant_id": "PL054",
+            "date": "2026-04-26",
+            "type": "completa",
+            "note": ""
+          },
+          {
+            "id": "W0027",
+            "plant_id": "PL054",
+            "date": "2026-04-19",
+            "type": "parziale",
+            "note": ""
+          }
+        ]
+      },
+      "repotting": [
+        {
+          "id": "R0019",
+          "plant_id": "PL054",
+          "date": "2024-04-12",
+          "previous_pot": "N/A",
+          "new_pot": "9",
+          "substrate": "N/A + palo sfagno",
+          "note": ""
+        }
+      ],
+      "treatments": [],
+      "events": [
+        {
+          "id": "R0019",
+          "plant_id": "PL054",
+          "date": "2024-04-12",
+          "type": "repot",
+          "text": "rinvaso vaso N/A → 9 | substrato: N/A + palo sfagno",
+          "source": "rinvasi"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL055",
+      "name": "ZZ black raven",
+      "scientific": "zamioculcas zamiifolia raven",
+      "status": "attenzione",
+      "meta": {
+        "origin": "regalo",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta",
+        "temperature": "15 – 29",
+        "temp_min": "15",
+        "temp_max": "29"
+      },
+      "watering": {
+        "rule": "lascia asciugare completamente",
+        "history": []
+      },
+      "repotting": [],
+      "treatments": [],
+      "events": [
+        {
+          "id": "E0031",
+          "plant_id": "PL055",
+          "date": "2026-04-19",
+          "category": "problema",
+          "type": "problem",
+          "text": "pianta zuppa da innaffio precedente, circa 1 settimana",
+          "source": "diario"
+        },
+        {
+          "id": "E0028",
+          "plant_id": "PL055",
+          "date": "2026-04-12",
+          "category": "crescita",
+          "type": "crescita",
+          "text": "due nuovi getti",
+          "source": "diario"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL056",
+      "name": "Falangio smezzato",
+      "scientific": "chlorophytum comosum",
+      "status": "attenzione",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta",
+        "temperature": "18 – 25",
+        "temp_min": "18",
+        "temp_max": "25"
+      },
+      "watering": {
+        "rule": "lascia asciugare per metà",
+        "history": []
+      },
+      "repotting": [
+        {
+          "id": "R0001",
+          "plant_id": "PL056",
+          "date": "2026-04-18",
+          "previous_pot": "13",
+          "new_pot": "11",
+          "substrate": "60teun+30pomi+10bark",
+          "note": "parte di pianta madre malmessa"
+        }
+      ],
+      "treatments": [],
+      "events": [
+        {
+          "id": "R0001",
+          "plant_id": "PL056",
+          "date": "2026-04-18",
+          "type": "repot",
+          "text": "rinvaso vaso 13 → 11 | substrato: 60teun+30pomi+10bark | parte di pianta madre malmessa",
+          "source": "rinvasi"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL057",
+      "name": "Falangio figlio 1",
+      "scientific": "chlorophytum comosum",
+      "status": "attenzione",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta",
+        "temperature": "18 – 25",
+        "temp_min": "18",
+        "temp_max": "25"
+      },
+      "watering": {
+        "rule": "lascia asciugare per metà",
+        "history": []
+      },
+      "repotting": [
+        {
+          "id": "R0002",
+          "plant_id": "PL057",
+          "date": "2026-04-18",
+          "previous_pot": "13",
+          "new_pot": "9",
+          "substrate": "60teun+30pomi+10bark",
+          "note": "figli di pianta madre malmessa"
+        }
+      ],
+      "treatments": [],
+      "events": [
+        {
+          "id": "R0002",
+          "plant_id": "PL057",
+          "date": "2026-04-18",
+          "type": "repot",
+          "text": "rinvaso vaso 13 → 9 | substrato: 60teun+30pomi+10bark | figli di pianta madre malmessa",
+          "source": "rinvasi"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL058",
+      "name": "Falangio figlio 2",
+      "scientific": "chlorophytum comosum",
+      "status": "attenzione",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta",
+        "temperature": "18 – 25",
+        "temp_min": "18",
+        "temp_max": "25"
+      },
+      "watering": {
+        "rule": "lascia asciugare per metà",
+        "history": []
+      },
+      "repotting": [
+        {
+          "id": "R0003",
+          "plant_id": "PL058",
+          "date": "2026-04-18",
+          "previous_pot": "13",
+          "new_pot": "9",
+          "substrate": "60teun+30pomi+10bark",
+          "note": "figli di pianta madre malmessa"
+        }
+      ],
+      "treatments": [],
+      "events": [
+        {
+          "id": "R0003",
+          "plant_id": "PL058",
+          "date": "2026-04-18",
+          "type": "repot",
+          "text": "rinvaso vaso 13 → 9 | substrato: 60teun+30pomi+10bark | figli di pianta madre malmessa",
+          "source": "rinvasi"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL059",
+      "name": "Falangio figlio 3",
+      "scientific": "chlorophytum comosum",
+      "status": "attenzione",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta",
+        "temperature": "18 – 25",
+        "temp_min": "18",
+        "temp_max": "25"
+      },
+      "watering": {
+        "rule": "lascia asciugare per metà",
+        "history": []
+      },
+      "repotting": [
+        {
+          "id": "R0004",
+          "plant_id": "PL059",
+          "date": "2026-04-18",
+          "previous_pot": "13",
+          "new_pot": "9",
+          "substrate": "60teun+30pomi+10bark",
+          "note": "figli di pianta madre malmessa"
+        }
+      ],
+      "treatments": [],
+      "events": [
+        {
+          "id": "R0004",
+          "plant_id": "PL059",
+          "date": "2026-04-18",
+          "type": "repot",
+          "text": "rinvaso vaso 13 → 9 | substrato: 60teun+30pomi+10bark | figli di pianta madre malmessa",
+          "source": "rinvasi"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL060",
+      "name": "Falangio figlio 4",
+      "scientific": "chlorophytum comosum",
+      "status": "attenzione",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta",
+        "temperature": "18 – 25",
+        "temp_min": "18",
+        "temp_max": "25"
+      },
+      "watering": {
+        "rule": "lascia asciugare per metà",
+        "history": []
+      },
+      "repotting": [
+        {
+          "id": "R0005",
+          "plant_id": "PL060",
+          "date": "2026-04-18",
+          "previous_pot": "13",
+          "new_pot": "9",
+          "substrate": "60teun+30pomi+10bark",
+          "note": "figli di pianta madre malmessa"
+        }
+      ],
+      "treatments": [],
+      "events": [
+        {
+          "id": "R0005",
+          "plant_id": "PL060",
+          "date": "2026-04-18",
+          "type": "repot",
+          "text": "rinvaso vaso 13 → 9 | substrato: 60teun+30pomi+10bark | figli di pianta madre malmessa",
+          "source": "rinvasi"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL061",
+      "name": "Felce di boston",
+      "scientific": "nephrolepis exaltata",
+      "status": "problema",
+      "meta": {
+        "origin": "acquisto",
+        "date": "",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta",
+        "temperature": "15 – 24",
+        "temp_min": "15",
+        "temp_max": "24"
+      },
+      "watering": {
+        "rule": "mantieni leggermente umido",
+        "history": []
+      },
+      "repotting": [],
+      "treatments": [],
+      "events": [],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL062",
+      "name": "Pothos bowl variegata",
+      "scientific": "epipremnum aureum",
+      "status": "ok",
+      "meta": {
+        "origin": "talea",
+        "date": "2026-04-12",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta",
+        "temperature": "14 – 26",
+        "temp_min": "14",
+        "temp_max": "26"
+      },
+      "watering": {
+        "rule": "lascia asciugare per metà",
+        "history": []
+      },
+      "repotting": [],
+      "treatments": [],
+      "events": [],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL063",
+      "name": "Pothos bowl variegata piccola",
+      "scientific": "epipremnum aureum",
+      "status": "ok",
+      "meta": {
+        "origin": "talea",
+        "date": "2026-04-12",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta",
+        "temperature": "14 – 26",
+        "temp_min": "14",
+        "temp_max": "26"
+      },
+      "watering": {
+        "rule": "lascia asciugare per metà",
+        "history": []
+      },
+      "repotting": [],
+      "treatments": [],
+      "events": [],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL064",
+      "name": "Pothos bowl",
+      "scientific": "epipremnum aureum",
+      "status": "ok",
+      "meta": {
+        "origin": "talea",
+        "date": "2026-04-12",
+        "place": "N/A",
+        "price": "N/A",
+        "photo": "",
+        "light": "luce indiretta",
+        "temperature": "14 – 26",
+        "temp_min": "14",
+        "temp_max": "26"
+      },
+      "watering": {
+        "rule": "lascia asciugare per metà",
+        "history": []
+      },
+      "repotting": [],
+      "treatments": [],
+      "events": [],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL065",
+      "name": "Scatola di fragole in sfagno",
+      "scientific": "",
+      "status": "ok",
+      "meta": {
+        "origin": "talea",
+        "date": "2026-04-26",
+        "place": "Ortofrutta",
+        "price": "Gratis",
+        "photo": "",
+        "light": "luce indiretta",
+        "temperature": "",
+        "temp_min": "",
+        "temp_max": ""
+      },
+      "watering": {
+        "rule": "mantieni leggermente umido",
+        "history": []
+      },
+      "repotting": [],
+      "treatments": [],
+      "events": [],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL066",
+      "name": "Scatola sfagno peperoncini, pomodori, pomodorini",
+      "scientific": "",
+      "status": "ok",
+      "meta": {
+        "origin": "talea",
+        "date": "2026-04-26",
+        "place": "Casereccio",
+        "price": "Gratis",
+        "photo": "",
+        "light": "luce indiretta",
+        "temperature": "",
+        "temp_min": "",
+        "temp_max": ""
+      },
+      "watering": {
+        "rule": "mantieni leggermente umido",
+        "history": []
+      },
+      "repotting": [],
+      "treatments": [],
+      "events": [],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL067",
+      "name": "Bowl di pothos da sfagno",
+      "scientific": "epipremnum aureum",
+      "status": "ok",
+      "meta": {
+        "origin": "talea",
+        "date": "2026-04-26",
+        "place": "Sfagno",
+        "price": "Gratis",
+        "photo": "",
+        "light": "luce indiretta",
+        "temperature": "14 – 26",
+        "temp_min": "14",
+        "temp_max": "26"
+      },
+      "watering": {
+        "rule": "lascia asciugare per metà",
+        "history": []
+      },
+      "repotting": [
+        {
+          "id": "R0022",
+          "plant_id": "PL067",
+          "date": "2026-04-26",
+          "previous_pot": "sfagno",
+          "new_pot": "12",
+          "substrate": "40teuni+5comp+15perl+20pomi+10bark+5vermi+5carb",
+          "note": "pianta abbandonata per un anno"
+        }
+      ],
+      "treatments": [],
+      "events": [
+        {
+          "id": "R0022",
+          "plant_id": "PL067",
+          "date": "2026-04-26",
+          "type": "repot",
+          "text": "rinvaso vaso sfagno → 12 | substrato: 40teuni+5comp+15perl+20pomi+10bark+5vermi+5carb | pianta abbandonata per un anno",
+          "source": "rinvasi"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    },
+    {
+      "id": "PL068",
+      "name": "Ludisia baby",
+      "scientific": "ludisia discolor",
+      "status": "ok",
+      "meta": {
+        "origin": "talea",
+        "date": "2026-04-26",
+        "place": "Sfagno",
+        "price": "Gratis",
+        "photo": "",
+        "light": "luce indiretta",
+        "temperature": "18 – 25",
+        "temp_min": "18",
+        "temp_max": "25"
+      },
+      "watering": {
+        "rule": "lascia asciugare completamente",
+        "history": []
+      },
+      "repotting": [
+        {
+          "id": "R0020",
+          "plant_id": "PL068",
+          "date": "2026-04-26",
+          "previous_pot": "sfagno",
+          "new_pot": "9",
+          "substrate": "60teuni+30bark+20pomi",
+          "note": "pianta abbandonata per un anno"
+        }
+      ],
+      "treatments": [],
+      "events": [
+        {
+          "id": "R0020",
+          "plant_id": "PL068",
+          "date": "2026-04-26",
+          "type": "repot",
+          "text": "rinvaso vaso sfagno → 9 | substrato: 60teuni+30bark+20pomi | pianta abbandonata per un anno",
+          "source": "rinvasi"
+        }
+      ],
+      "substrate": "40% generico, 30% bark, 20%pomice",
+      "notes": ""
+    },
+    {
+      "id": "PL069",
+      "name": "Monstera monkey baby",
+      "scientific": "monstera adansonii",
+      "status": "ok",
+      "meta": {
+        "origin": "talea",
+        "date": "2026-04-26",
+        "place": "Sfagno",
+        "price": "Gratis",
+        "photo": "",
+        "light": "luce indiretta luminosa",
+        "temperature": "18 – 27",
+        "temp_min": "18",
+        "temp_max": "27"
+      },
+      "watering": {
+        "rule": "mantieni leggermente umido",
+        "history": []
+      },
+      "repotting": [
+        {
+          "id": "R0021",
+          "plant_id": "PL069",
+          "date": "2026-04-26",
+          "previous_pot": "sfagno",
+          "new_pot": "8",
+          "substrate": "40teuni+30bark+30pomi",
+          "note": "pianta abbandonata per un anno"
+        }
+      ],
+      "treatments": [],
+      "events": [
+        {
+          "id": "R0021",
+          "plant_id": "PL069",
+          "date": "2026-04-26",
+          "type": "repot",
+          "text": "rinvaso vaso sfagno → 8 | substrato: 40teuni+30bark+30pomi | pianta abbandonata per un anno",
+          "source": "rinvasi"
+        }
+      ],
+      "substrate": "",
+      "notes": ""
+    }
+  ],
+  "global_events": [
+    {
+      "plant_id": "PL017",
+      "plant_name": "Philodendro rosa",
+      "date": "2026-04-26",
+      "type": "osservazione",
+      "text": "la pianta non sta bene, foglie arricciate e crescita stentata",
+      "source": "diario",
+      "id": "E0033"
+    },
+    {
+      "plant_id": "PL045",
+      "plant_name": "Pothos mint",
+      "date": "2026-04-26",
+      "type": "water",
+      "text": "Innaffiatura: completa",
+      "source": "innaffiature",
+      "id": "W0056"
+    },
+    {
+      "plant_id": "PL047",
+      "plant_name": "Pothos 'njoy",
+      "date": "2026-04-26",
+      "type": "water",
+      "text": "Innaffiatura: completa",
+      "source": "innaffiature",
+      "id": "W0057"
+    },
+    {
+      "plant_id": "PL048",
+      "plant_name": "Calathea vaso rosa",
+      "date": "2026-04-26",
+      "type": "water",
+      "text": "Innaffiatura: completa",
+      "source": "innaffiature",
+      "id": "W0058"
+    },
+    {
+      "plant_id": "PL049",
+      "plant_name": "Syngonium green",
+      "date": "2026-04-26",
+      "type": "water",
+      "text": "Innaffiatura: completa",
+      "source": "innaffiature",
+      "id": "W0059"
+    },
+    {
+      "plant_id": "PL053",
+      "plant_name": "Peperomia variegata",
+      "date": "2026-04-26",
+      "type": "water",
+      "text": "Innaffiatura: completa",
+      "source": "innaffiature",
+      "id": "W0060"
+    },
+    {
+      "plant_id": "PL054",
+      "plant_name": "Pothos con palo",
+      "date": "2026-04-26",
+      "type": "water",
+      "text": "Innaffiatura: completa",
+      "source": "innaffiature",
+      "id": "W0061"
+    },
+    {
+      "plant_id": "PL067",
+      "plant_name": "Bowl di pothos da sfagno",
+      "date": "2026-04-26",
+      "type": "repot",
+      "text": "rinvaso vaso sfagno → 12 | substrato: 40teuni+5comp+15perl+20pomi+10bark+5vermi+5carb | pianta abbandonata per un anno",
+      "source": "rinvasi",
+      "id": "R0022"
+    },
+    {
+      "plant_id": "PL068",
+      "plant_name": "Ludisia baby",
+      "date": "2026-04-26",
+      "type": "repot",
+      "text": "rinvaso vaso sfagno → 9 | substrato: 60teuni+30bark+20pomi | pianta abbandonata per un anno",
+      "source": "rinvasi",
+      "id": "R0020"
+    },
+    {
+      "plant_id": "PL069",
+      "plant_name": "Monstera monkey baby",
+      "date": "2026-04-26",
+      "type": "repot",
+      "text": "rinvaso vaso sfagno → 8 | substrato: 40teuni+30bark+30pomi | pianta abbandonata per un anno",
+      "source": "rinvasi",
+      "id": "R0021"
+    },
+    {
+      "plant_id": "PL001",
+      "plant_name": "Monstera Thai",
+      "date": "2026-04-25",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0028"
+    },
+    {
+      "plant_id": "PL005",
+      "plant_name": "Schefflera Baby",
+      "date": "2026-04-25",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0032"
+    },
+    {
+      "plant_id": "PL006",
+      "plant_name": "Ficus Tineke Baby",
+      "date": "2026-04-25",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0030"
+    },
+    {
+      "plant_id": "PL007",
+      "plant_name": "Ficus Belize Baby",
+      "date": "2026-04-25",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0031"
+    },
+    {
+      "plant_id": "PL008",
+      "plant_name": "Pothos 'njoy baby",
+      "date": "2026-04-25",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0029"
+    },
+    {
+      "plant_id": "PL009",
+      "plant_name": "Strelitzia media",
+      "date": "2026-04-25",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0033"
+    },
+    {
+      "plant_id": "PL012",
+      "plant_name": "Strelitzia augusta verde",
+      "date": "2026-04-25",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0034"
+    },
+    {
+      "plant_id": "PL013",
+      "plant_name": "Strelitzia augusta grigio",
+      "date": "2026-04-25",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0035"
+    },
+    {
+      "plant_id": "PL014",
+      "plant_name": "Strelitzia piccola",
+      "date": "2026-04-25",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0036"
+    },
+    {
+      "plant_id": "PL019",
+      "plant_name": "Tradescantia bianca",
+      "date": "2026-04-25",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0039"
+    },
+    {
+      "plant_id": "PL021",
+      "plant_name": "Beucarnea baby",
+      "date": "2026-04-25",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0040"
+    },
+    {
+      "plant_id": "PL022",
+      "plant_name": "Marantha",
+      "date": "2026-04-25",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0041"
+    },
+    {
+      "plant_id": "PL024",
+      "plant_name": "Monstera monkey",
+      "date": "2026-04-25",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0042"
+    },
+    {
+      "plant_id": "PL025",
+      "plant_name": "Pilea baby",
+      "date": "2026-04-25",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0043"
+    },
+    {
+      "plant_id": "PL026",
+      "plant_name": "Pilea baby",
+      "date": "2026-04-25",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0044"
+    },
+    {
+      "plant_id": "PL027",
+      "plant_name": "Pilea baby",
+      "date": "2026-04-25",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0045"
+    },
+    {
+      "plant_id": "PL028",
+      "plant_name": "Dracena Fragrans",
+      "date": "2026-04-25",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0046"
+    },
+    {
+      "plant_id": "PL029",
+      "plant_name": "Pilea",
+      "date": "2026-04-25",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0047"
+    },
+    {
+      "plant_id": "PL030",
+      "plant_name": "Aspidistra",
+      "date": "2026-04-25",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0048"
+    },
+    {
+      "plant_id": "PL031",
+      "plant_name": "Calathea vaso viola",
+      "date": "2026-04-25",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0049"
+    },
+    {
+      "plant_id": "PL033",
+      "plant_name": "Adenium",
+      "date": "2026-04-25",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0050"
+    },
+    {
+      "plant_id": "PL034",
+      "plant_name": "Avocado big",
+      "date": "2026-04-25",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0051"
+    },
+    {
+      "plant_id": "PL037",
+      "plant_name": "Syngonium pink",
+      "date": "2026-04-25",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0037"
+    },
+    {
+      "plant_id": "PL038",
+      "plant_name": "Monsterona",
+      "date": "2026-04-25",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0038"
+    },
+    {
+      "plant_id": "PL040",
+      "plant_name": "Pothos",
+      "date": "2026-04-25",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0052"
+    },
+    {
+      "plant_id": "PL041",
+      "plant_name": "Tradescantia mix",
+      "date": "2026-04-25",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0053"
+    },
+    {
+      "plant_id": "PL042",
+      "plant_name": "Cyperus",
+      "date": "2026-04-25",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0054"
+    },
+    {
+      "plant_id": "PL044",
+      "plant_name": "Eucalipto",
+      "date": "2026-04-25",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0055"
+    },
+    {
+      "plant_id": "PL001",
+      "plant_name": "Monstera Thai",
+      "date": "2026-04-19",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0001"
+    },
+    {
+      "plant_id": "PL005",
+      "plant_name": "Schefflera Baby",
+      "date": "2026-04-19",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0003"
+    },
+    {
+      "plant_id": "PL008",
+      "plant_name": "Pothos 'njoy baby",
+      "date": "2026-04-19",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0002"
+    },
+    {
+      "plant_id": "PL009",
+      "plant_name": "Strelitzia media",
+      "date": "2026-04-19",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0004"
+    },
+    {
+      "plant_id": "PL012",
+      "plant_name": "Strelitzia augusta verde",
+      "date": "2026-04-19",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0005"
+    },
+    {
+      "plant_id": "PL013",
+      "plant_name": "Strelitzia augusta grigio",
+      "date": "2026-04-19",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0006"
+    },
+    {
+      "plant_id": "PL014",
+      "plant_name": "Strelitzia piccola",
+      "date": "2026-04-19",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0007"
+    },
+    {
+      "plant_id": "PL019",
+      "plant_name": "Tradescantia bianca",
+      "date": "2026-04-19",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0018"
+    },
+    {
+      "plant_id": "PL021",
+      "plant_name": "Beucarnea baby",
+      "date": "2026-04-19",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0017"
+    },
+    {
+      "plant_id": "PL022",
+      "plant_name": "Marantha",
+      "date": "2026-04-19",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0016"
+    },
+    {
+      "plant_id": "PL025",
+      "plant_name": "Pilea baby",
+      "date": "2026-04-19",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0009"
+    },
+    {
+      "plant_id": "PL026",
+      "plant_name": "Pilea baby",
+      "date": "2026-04-19",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0010"
+    },
+    {
+      "plant_id": "PL027",
+      "plant_name": "Pilea baby",
+      "date": "2026-04-19",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0011"
+    },
+    {
+      "plant_id": "PL028",
+      "plant_name": "Dracena Fragrans",
+      "date": "2026-04-19",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0015"
+    },
+    {
+      "plant_id": "PL029",
+      "plant_name": "Pilea",
+      "date": "2026-04-19",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0012"
+    },
+    {
+      "plant_id": "PL030",
+      "plant_name": "Aspidistra",
+      "date": "2026-04-19",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0013"
+    },
+    {
+      "plant_id": "PL031",
+      "plant_name": "Calathea vaso viola",
+      "date": "2026-04-19",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0014"
+    },
+    {
+      "plant_id": "PL034",
+      "plant_name": "Avocado big",
+      "date": "2026-04-19",
+      "type": "problem",
+      "text": "notate le foglie superiori con bordi bruciati - allontanato da lampada",
+      "source": "diario",
+      "id": "E0032"
+    },
+    {
+      "plant_id": "PL037",
+      "plant_name": "Syngonium pink",
+      "date": "2026-04-19",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0008"
+    },
+    {
+      "plant_id": "PL038",
+      "plant_name": "Monsterona",
+      "date": "2026-04-19",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0019"
+    },
+    {
+      "plant_id": "PL039",
+      "plant_name": "Anthurium",
+      "date": "2026-04-19",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0020"
+    },
+    {
+      "plant_id": "PL040",
+      "plant_name": "Pothos",
+      "date": "2026-04-19",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0021"
+    },
+    {
+      "plant_id": "PL041",
+      "plant_name": "Tradescantia mix",
+      "date": "2026-04-19",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0022"
+    },
+    {
+      "plant_id": "PL042",
+      "plant_name": "Cyperus",
+      "date": "2026-04-19",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0023"
+    },
+    {
+      "plant_id": "PL045",
+      "plant_name": "Pothos mint",
+      "date": "2026-04-19",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0024"
+    },
+    {
+      "plant_id": "PL046",
+      "plant_name": "Dieffenbachia",
+      "date": "2026-04-19",
+      "type": "problem",
+      "text": "pianta zuppa da innaffio precedente, circa 1 settimana",
+      "source": "diario",
+      "id": "E0029"
+    },
+    {
+      "plant_id": "PL047",
+      "plant_name": "Pothos 'njoy",
+      "date": "2026-04-19",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0025"
+    },
+    {
+      "plant_id": "PL049",
+      "plant_name": "Syngonium green",
+      "date": "2026-04-19",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0026"
+    },
+    {
+      "plant_id": "PL052",
+      "plant_name": "Sanseviera",
+      "date": "2026-04-19",
+      "type": "problem",
+      "text": "pianta zuppa da innaffio precedente, circa 1 settimana",
+      "source": "diario",
+      "id": "E0030"
+    },
+    {
+      "plant_id": "PL054",
+      "plant_name": "Pothos con palo",
+      "date": "2026-04-19",
+      "type": "water",
+      "text": "Innaffiatura: parziale",
+      "source": "innaffiature",
+      "id": "W0027"
+    },
+    {
+      "plant_id": "PL055",
+      "plant_name": "ZZ black raven",
+      "date": "2026-04-19",
+      "type": "problem",
+      "text": "pianta zuppa da innaffio precedente, circa 1 settimana",
+      "source": "diario",
+      "id": "E0031"
+    },
+    {
+      "plant_id": "PL015",
+      "plant_name": "Falangio smezzato",
+      "date": "2026-04-18",
+      "type": "repot",
+      "text": "rinvaso vaso 13 → 11 | substrato: 60teun+30pomi+10bark | parte di pianta madre malmessa",
+      "source": "rinvasi",
+      "id": "R0006"
+    },
+    {
+      "plant_id": "PL016",
+      "plant_name": "Callisia Repens",
+      "date": "2026-04-18",
+      "type": "repot",
+      "text": "rinvaso vaso 16 → idro | substrato: acqua + sassi | metà cespuglio morto",
+      "source": "rinvasi",
+      "id": "R0008"
+    },
+    {
+      "plant_id": "PL032",
+      "plant_name": "Spatifillo",
+      "date": "2026-04-18",
+      "type": "repot",
+      "text": "rinvaso vaso 18 → 14 | substrato: 60teun+30pomi+20bark | alcune radici marce rimosse",
+      "source": "rinvasi",
+      "id": "R0007"
+    },
+    {
+      "plant_id": "PL056",
+      "plant_name": "Falangio smezzato",
+      "date": "2026-04-18",
+      "type": "repot",
+      "text": "rinvaso vaso 13 → 11 | substrato: 60teun+30pomi+10bark | parte di pianta madre malmessa",
+      "source": "rinvasi",
+      "id": "R0001"
+    },
+    {
+      "plant_id": "PL057",
+      "plant_name": "Falangio figlio 1",
+      "date": "2026-04-18",
+      "type": "repot",
+      "text": "rinvaso vaso 13 → 9 | substrato: 60teun+30pomi+10bark | figli di pianta madre malmessa",
+      "source": "rinvasi",
+      "id": "R0002"
+    },
+    {
+      "plant_id": "PL058",
+      "plant_name": "Falangio figlio 2",
+      "date": "2026-04-18",
+      "type": "repot",
+      "text": "rinvaso vaso 13 → 9 | substrato: 60teun+30pomi+10bark | figli di pianta madre malmessa",
+      "source": "rinvasi",
+      "id": "R0003"
+    },
+    {
+      "plant_id": "PL059",
+      "plant_name": "Falangio figlio 3",
+      "date": "2026-04-18",
+      "type": "repot",
+      "text": "rinvaso vaso 13 → 9 | substrato: 60teun+30pomi+10bark | figli di pianta madre malmessa",
+      "source": "rinvasi",
+      "id": "R0004"
+    },
+    {
+      "plant_id": "PL060",
+      "plant_name": "Falangio figlio 4",
+      "date": "2026-04-18",
+      "type": "repot",
+      "text": "rinvaso vaso 13 → 9 | substrato: 60teun+30pomi+10bark | figli di pianta madre malmessa",
+      "source": "rinvasi",
+      "id": "R0005"
+    },
+    {
+      "plant_id": "PL003",
+      "plant_name": "Iresine",
+      "date": "2026-04-12",
+      "type": "treatment",
+      "text": "potatura e stralci in idro a radicare",
+      "source": "diario",
+      "id": "E0001"
+    },
+    {
+      "plant_id": "PL009",
+      "plant_name": "Strelitzia media",
+      "date": "2026-04-12",
+      "type": "treatment",
+      "text": "pulizia foglie per rimozione cocciniglia cotonosa — prodotto: olio di neem",
+      "source": "trattamenti",
+      "id": "T024"
+    },
+    {
+      "plant_id": "PL009",
+      "plant_name": "Strelitzia media",
+      "date": "2026-04-12",
+      "type": "problem",
+      "text": "terreno idrofobico+radici fuori vaso+cocciniglia cotonosa",
+      "source": "diario",
+      "id": "E0002"
+    },
+    {
+      "plant_id": "PL012",
+      "plant_name": "Strelitzia augusta verde",
+      "date": "2026-04-12",
+      "type": "treatment",
+      "text": "pulizia foglie per rimozione cocciniglia cotonosa — prodotto: olio di neem",
+      "source": "trattamenti",
+      "id": "T025"
+    },
+    {
+      "plant_id": "PL012",
+      "plant_name": "Strelitzia augusta verde",
+      "date": "2026-04-12",
+      "type": "problem",
+      "text": "terreno idrofobico+radici fuori vaso+cocciniglia cotonosa",
+      "source": "diario",
+      "id": "E0003"
+    },
+    {
+      "plant_id": "PL013",
+      "plant_name": "Strelitzia augusta grigio",
+      "date": "2026-04-12",
+      "type": "treatment",
+      "text": "pulizia foglie per rimozione cocciniglia cotonosa — prodotto: olio di neem",
+      "source": "trattamenti",
+      "id": "T026"
+    },
+    {
+      "plant_id": "PL013",
+      "plant_name": "Strelitzia augusta grigio",
+      "date": "2026-04-12",
+      "type": "problem",
+      "text": "terreno idrofobico+radici fuori vaso+cocciniglia cotonosa",
+      "source": "diario",
+      "id": "E0004"
+    },
+    {
+      "plant_id": "PL014",
+      "plant_name": "Strelitzia piccola",
+      "date": "2026-04-12",
+      "type": "treatment",
+      "text": "pulizia foglie per rimozione cocciniglia cotonosa — prodotto: olio di neem",
+      "source": "trattamenti",
+      "id": "T027"
+    },
+    {
+      "plant_id": "PL014",
+      "plant_name": "Strelitzia piccola",
+      "date": "2026-04-12",
+      "type": "problem",
+      "text": "terreno idrofobico+radici fuori vaso+cocciniglia cotonosa",
+      "source": "diario",
+      "id": "E0005"
+    },
+    {
+      "plant_id": "PL015",
+      "plant_name": "Falangio smezzato",
+      "date": "2026-04-12",
+      "type": "problem",
+      "text": "terreno idrofobico+radici fuori+figli colonizzatori",
+      "source": "diario",
+      "id": "E0006"
+    },
+    {
+      "plant_id": "PL016",
+      "plant_name": "Callisia Repens",
+      "date": "2026-04-12",
+      "type": "osservazione",
+      "text": "metà pianta secca e rovinata",
+      "source": "diario",
+      "id": "E0007"
+    },
+    {
+      "plant_id": "PL019",
+      "plant_name": "Tradescantia bianca",
+      "date": "2026-04-12",
+      "type": "osservazione",
+      "text": "terreno idrofobico",
+      "source": "diario",
+      "id": "E0008"
+    },
+    {
+      "plant_id": "PL020",
+      "plant_name": "Hoya",
+      "date": "2026-04-12",
+      "type": "osservazione",
+      "text": "terreno idrofobico",
+      "source": "diario",
+      "id": "E0009"
+    },
+    {
+      "plant_id": "PL022",
+      "plant_name": "Marantha",
+      "date": "2026-04-12",
+      "type": "osservazione",
+      "text": "da rinvasare con calma",
+      "source": "diario",
+      "id": "E0010"
+    },
+    {
+      "plant_id": "PL028",
+      "plant_name": "Dracena Fragrans",
+      "date": "2026-04-12",
+      "type": "osservazione",
+      "text": "terreno idrofobico",
+      "source": "diario",
+      "id": "E0011"
+    },
+    {
+      "plant_id": "PL029",
+      "plant_name": "Pilea",
+      "date": "2026-04-12",
+      "type": "osservazione",
+      "text": "sembra riprendersi da travaso",
+      "source": "diario",
+      "id": "E0012"
+    },
+    {
+      "plant_id": "PL030",
+      "plant_name": "Aspidistra",
+      "date": "2026-04-12",
+      "type": "osservazione",
+      "text": "spuntano nuovi fusti dopo rasatura, passare a vaso più piccolo",
+      "source": "diario",
+      "id": "E0013"
+    },
+    {
+      "plant_id": "PL032",
+      "plant_name": "Spatifillo",
+      "date": "2026-04-12",
+      "type": "problem",
+      "text": "terreno idrofobico, da rinvasare",
+      "source": "diario",
+      "id": "E0014"
+    },
+    {
+      "plant_id": "PL033",
+      "plant_name": "Adenium",
+      "date": "2026-04-12",
+      "type": "problem",
+      "text": "cocciniglia scudetto+terreno idrofobico",
+      "source": "diario",
+      "id": "E0015"
+    },
+    {
+      "plant_id": "PL034",
+      "plant_name": "Avocado big",
+      "date": "2026-04-12",
+      "type": "osservazione",
+      "text": "cresciuto in idro, da mettere in terra",
+      "source": "diario",
+      "id": "E0016"
+    },
+    {
+      "plant_id": "PL037",
+      "plant_name": "Syngonium pink",
+      "date": "2026-04-12",
+      "type": "problem",
+      "text": "terreno idrofobico+afidi da mesi",
+      "source": "diario",
+      "id": "E0017"
+    },
+    {
+      "plant_id": "PL038",
+      "plant_name": "Monsterona",
+      "date": "2026-04-12",
+      "type": "osservazione",
+      "text": "foglia gialla+bordi neri, post rinvaso",
+      "source": "diario",
+      "id": "E0018"
+    },
+    {
+      "plant_id": "PL040",
+      "plant_name": "Pothos",
+      "date": "2026-04-12",
+      "type": "osservazione",
+      "text": "campa ma sarà da rinvasare con calma",
+      "source": "diario",
+      "id": "E0019"
+    },
+    {
+      "plant_id": "PL041",
+      "plant_name": "Tradescantia mix",
+      "date": "2026-04-12",
+      "type": "osservazione",
+      "text": "capire cosa fare, rinvasare? Fare talee? Buttare?",
+      "source": "diario",
+      "id": "E0020"
+    },
+    {
+      "plant_id": "PL043",
+      "plant_name": "Cytisus",
+      "date": "2026-04-12",
+      "type": "problem",
+      "text": "rinvasare perchè terra idrofobica, pianta nuova",
+      "source": "diario",
+      "id": "E0021"
+    },
+    {
+      "plant_id": "PL044",
+      "plant_name": "Eucalipto",
+      "date": "2026-04-12",
+      "type": "problem",
+      "text": "terreno idrofobico + ridurre vaso?",
+      "source": "diario",
+      "id": "E0022"
+    },
+    {
+      "plant_id": "PL046",
+      "plant_name": "Dieffenbachia",
+      "date": "2026-04-12",
+      "type": "osservazione",
+      "text": "forse vaso troppo grande",
+      "source": "diario",
+      "id": "E0023"
+    },
+    {
+      "plant_id": "PL047",
+      "plant_name": "Pothos 'njoy",
+      "date": "2026-04-12",
+      "type": "osservazione",
+      "text": "da rinvasare con calma",
+      "source": "diario",
+      "id": "E0024"
+    },
+    {
+      "plant_id": "PL049",
+      "plant_name": "Syngonium green",
+      "date": "2026-04-12",
+      "type": "problem",
+      "text": "vaso quasi rootbound, da rinvasare",
+      "source": "diario",
+      "id": "E0025"
+    },
+    {
+      "plant_id": "PL050",
+      "plant_name": "Philodendro birkin",
+      "date": "2026-04-12",
+      "type": "osservazione",
+      "text": "dare palo di sfagno con calma",
+      "source": "diario",
+      "id": "E0026"
+    },
+    {
+      "plant_id": "PL053",
+      "plant_name": "Peperomia variegata",
+      "date": "2026-04-12",
+      "type": "problem",
+      "text": "terreno idrofobico",
+      "source": "diario",
+      "id": "E0027"
+    },
+    {
+      "plant_id": "PL055",
+      "plant_name": "ZZ black raven",
+      "date": "2026-04-12",
+      "type": "crescita",
+      "text": "due nuovi getti",
+      "source": "diario",
+      "id": "E0028"
+    },
+    {
+      "plant_id": "PL003",
+      "plant_name": "Iresine",
+      "date": "2026-04-06",
+      "type": "treatment",
+      "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi",
+      "source": "trattamenti",
+      "id": "T003"
+    },
+    {
+      "plant_id": "PL009",
+      "plant_name": "Strelitzia media",
+      "date": "2026-04-06",
+      "type": "treatment",
+      "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi",
+      "source": "trattamenti",
+      "id": "T004"
+    },
+    {
+      "plant_id": "PL012",
+      "plant_name": "Strelitzia augusta verde",
+      "date": "2026-04-06",
+      "type": "treatment",
+      "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi",
+      "source": "trattamenti",
+      "id": "T005"
+    },
+    {
+      "plant_id": "PL013",
+      "plant_name": "Strelitzia augusta grigio",
+      "date": "2026-04-06",
+      "type": "treatment",
+      "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi",
+      "source": "trattamenti",
+      "id": "T006"
+    },
+    {
+      "plant_id": "PL014",
+      "plant_name": "Strelitzia piccola",
+      "date": "2026-04-06",
+      "type": "treatment",
+      "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi",
+      "source": "trattamenti",
+      "id": "T007"
+    },
+    {
+      "plant_id": "PL015",
+      "plant_name": "Falangio smezzato",
+      "date": "2026-04-06",
+      "type": "treatment",
+      "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi",
+      "source": "trattamenti",
+      "id": "T008"
+    },
+    {
+      "plant_id": "PL016",
+      "plant_name": "Callisia Repens",
+      "date": "2026-04-06",
+      "type": "treatment",
+      "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi",
+      "source": "trattamenti",
+      "id": "T009"
+    },
+    {
+      "plant_id": "PL019",
+      "plant_name": "Tradescantia bianca",
+      "date": "2026-04-06",
+      "type": "treatment",
+      "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi",
+      "source": "trattamenti",
+      "id": "T010"
+    },
+    {
+      "plant_id": "PL020",
+      "plant_name": "Hoya",
+      "date": "2026-04-06",
+      "type": "treatment",
+      "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi",
+      "source": "trattamenti",
+      "id": "T011"
+    },
+    {
+      "plant_id": "PL022",
+      "plant_name": "Marantha",
+      "date": "2026-04-06",
+      "type": "treatment",
+      "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi",
+      "source": "trattamenti",
+      "id": "T012"
+    },
+    {
+      "plant_id": "PL028",
+      "plant_name": "Dracena Fragrans",
+      "date": "2026-04-06",
+      "type": "treatment",
+      "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi",
+      "source": "trattamenti",
+      "id": "T013"
+    },
+    {
+      "plant_id": "PL029",
+      "plant_name": "Pilea",
+      "date": "2026-04-06",
+      "type": "treatment",
+      "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi",
+      "source": "trattamenti",
+      "id": "T014"
+    },
+    {
+      "plant_id": "PL030",
+      "plant_name": "Aspidistra",
+      "date": "2026-04-06",
+      "type": "treatment",
+      "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi",
+      "source": "trattamenti",
+      "id": "T015"
+    },
+    {
+      "plant_id": "PL032",
+      "plant_name": "Spatifillo",
+      "date": "2026-04-06",
+      "type": "treatment",
+      "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi",
+      "source": "trattamenti",
+      "id": "T016"
+    },
+    {
+      "plant_id": "PL033",
+      "plant_name": "Adenium",
+      "date": "2026-04-06",
+      "type": "treatment",
+      "text": "pulizia foglie per rimozione cocciniglia scudetto — prodotto: sanium",
+      "source": "trattamenti",
+      "id": "T002"
+    },
+    {
+      "plant_id": "PL033",
+      "plant_name": "Adenium",
+      "date": "2026-04-06",
+      "type": "treatment",
+      "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi",
+      "source": "trattamenti",
+      "id": "T017"
+    },
+    {
+      "plant_id": "PL034",
+      "plant_name": "Avocado big",
+      "date": "2026-04-06",
+      "type": "treatment",
+      "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi",
+      "source": "trattamenti",
+      "id": "T018"
+    },
+    {
+      "plant_id": "PL037",
+      "plant_name": "Syngonium pink",
+      "date": "2026-04-06",
+      "type": "treatment",
+      "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi",
+      "source": "trattamenti",
+      "id": "T019"
+    },
+    {
+      "plant_id": "PL038",
+      "plant_name": "Monsterona",
+      "date": "2026-04-06",
+      "type": "treatment",
+      "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi",
+      "source": "trattamenti",
+      "id": "T020"
+    },
+    {
+      "plant_id": "PL040",
+      "plant_name": "Pothos",
+      "date": "2026-04-06",
+      "type": "treatment",
+      "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi",
+      "source": "trattamenti",
+      "id": "T021"
+    },
+    {
+      "plant_id": "PL041",
+      "plant_name": "Tradescantia mix",
+      "date": "2026-04-06",
+      "type": "treatment",
+      "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi",
+      "source": "trattamenti",
+      "id": "T022"
+    },
+    {
+      "plant_id": "PL043",
+      "plant_name": "Cytisus",
+      "date": "2026-04-06",
+      "type": "treatment",
+      "text": "innaffiato con fertilizzante per piante verdi — prodotto: fito concime piante verdi",
+      "source": "trattamenti",
+      "id": "T023"
+    },
+    {
+      "plant_id": "PL044",
+      "plant_name": "Eucalipto",
+      "date": "2026-04-04",
+      "type": "treatment",
+      "text": "potatura parti morte",
+      "source": "trattamenti",
+      "id": "T001"
+    },
+    {
+      "plant_id": "PL045",
+      "plant_name": "Pothos mint",
+      "date": "2024-04-12",
+      "type": "repot",
+      "text": "rinvaso vaso N/A → 9 | substrato: N/A + palo sfagno",
+      "source": "rinvasi",
+      "id": "R0018"
+    },
+    {
+      "plant_id": "PL054",
+      "plant_name": "Pothos con palo",
+      "date": "2024-04-12",
+      "type": "repot",
+      "text": "rinvaso vaso N/A → 9 | substrato: N/A + palo sfagno",
+      "source": "rinvasi",
+      "id": "R0019"
+    },
+    {
+      "plant_id": "PL018",
+      "plant_name": "Tradescantia rosa",
+      "date": "2024-04-04",
+      "type": "repot",
+      "text": "rinvaso vaso N/A → N/A | substrato: terra universale | pianta mezza morta, talee in terra",
+      "source": "rinvasi",
+      "id": "R0017"
+    },
+    {
+      "plant_id": "PL001",
+      "plant_name": "Monstera Thai",
+      "date": "2024-03-15",
+      "type": "repot",
+      "text": "rinvaso vaso N/A → N/A | substrato: N/A | monstera con strabordo radici",
+      "source": "rinvasi",
+      "id": "R0009"
+    },
+    {
+      "plant_id": "PL002",
+      "plant_name": "Monstera",
+      "date": "2024-03-15",
+      "type": "repot",
+      "text": "rinvaso vaso N/A → N/A | substrato: N/A | monstera con strabordo radici",
+      "source": "rinvasi",
+      "id": "R0010"
+    },
+    {
+      "plant_id": "PL003",
+      "plant_name": "Iresine",
+      "date": "2024-03-15",
+      "type": "repot",
+      "text": "rinvaso vaso N/A → N/A | substrato: N/A | balconetta separata",
+      "source": "rinvasi",
+      "id": "R0011"
+    },
+    {
+      "plant_id": "PL004",
+      "plant_name": "Oxalis Pink",
+      "date": "2024-03-15",
+      "type": "repot",
+      "text": "rinvaso vaso N/A → N/A | substrato: N/A | balconetta separata",
+      "source": "rinvasi",
+      "id": "R0012"
+    },
+    {
+      "plant_id": "PL016",
+      "plant_name": "Callisia Repens",
+      "date": "2024-03-15",
+      "type": "repot",
+      "text": "rinvaso vaso N/A → N/A | substrato: N/A | balconetta separata",
+      "source": "rinvasi",
+      "id": "R0013"
+    },
+    {
+      "plant_id": "PL024",
+      "plant_name": "Monstera monkey",
+      "date": "2024-03-15",
+      "type": "repot",
+      "text": "rinvaso vaso N/A → N/A | substrato: N/A | balconetta separata",
+      "source": "rinvasi",
+      "id": "R0014"
+    },
+    {
+      "plant_id": "PL038",
+      "plant_name": "Monsterona",
+      "date": "2024-03-15",
+      "type": "repot",
+      "text": "rinvaso vaso N/A → N/A | substrato: N/A | monstera con strabordo radici",
+      "source": "rinvasi",
+      "id": "R0015"
+    },
+    {
+      "plant_id": "PL046",
+      "plant_name": "Dieffenbachia",
+      "date": "2024-03-15",
+      "type": "repot",
+      "text": "rinvaso vaso N/A → N/A | substrato: N/A | balconetta separata",
+      "source": "rinvasi",
+      "id": "R0016"
+    }
+  ],
+  "inventory_components": [
+    {
+      "id": "I001",
+      "name": "terra universale",
+      "category": "",
+      "quantity": "15",
+      "unit": "L",
+      "stock_status": "tanto",
+      "note": ""
+    },
+    {
+      "id": "I002",
+      "name": "compost",
+      "category": "",
+      "quantity": "10",
+      "unit": "L",
+      "stock_status": "tanto",
+      "note": ""
+    },
+    {
+      "id": "I003",
+      "name": "vermiculite",
+      "category": "",
+      "quantity": "10",
+      "unit": "L",
+      "stock_status": "tanto",
+      "note": ""
+    },
+    {
+      "id": "I004",
+      "name": "pomice fine",
+      "category": "",
+      "quantity": "10",
+      "unit": "L",
+      "stock_status": "tanto",
+      "note": ""
+    },
+    {
+      "id": "I005",
+      "name": "bark 6mm",
+      "category": "",
+      "quantity": "10",
+      "unit": "L",
+      "stock_status": "tanto",
+      "note": ""
+    },
+    {
+      "id": "I006",
+      "name": "bark 20mm",
+      "category": "",
+      "quantity": "5",
+      "unit": "L",
+      "stock_status": "medio",
+      "note": ""
+    },
+    {
+      "id": "I007",
+      "name": "perlite",
+      "category": "",
+      "quantity": "10",
+      "unit": "L",
+      "stock_status": "tanto",
+      "note": ""
+    },
+    {
+      "id": "I008",
+      "name": "carbone vegetale",
+      "category": "",
+      "quantity": "3",
+      "unit": "L",
+      "stock_status": "tanto",
+      "note": ""
+    },
+    {
+      "id": "I009",
+      "name": "stallatico",
+      "category": "",
+      "quantity": "4",
+      "unit": "L",
+      "stock_status": "tanto",
+      "note": ""
+    },
+    {
+      "id": "I010",
+      "name": "mix agrumi",
+      "category": "",
+      "quantity": "5",
+      "unit": "L",
+      "stock_status": "medio",
+      "note": ""
+    },
+    {
+      "id": "I011",
+      "name": "mix carnivore",
+      "category": "",
+      "quantity": "5",
+      "unit": "L",
+      "stock_status": "tanto",
+      "note": ""
+    },
+    {
+      "id": "I012",
+      "name": "mix cactacee",
+      "category": "",
+      "quantity": "2",
+      "unit": "L",
+      "stock_status": "poco",
+      "note": ""
+    }
+  ],
+  "shopping_list": [],
+  "unmatched": {
+    "watering": [],
+    "repotting": [],
+    "treatments": [],
+    "events": []
+  }
+}

@@ -1,0 +1,200 @@
+/* =========================
+   HEADER PIANTA (dentro card)
+========================= */
+
+.plant-header {
+  display: flex;
+  gap: 14px;
+  padding: 12px;
+}
+
+/* immagine */
+.plant-image {
+  width: 110px;
+  height: 150px;
+  border-radius: 14px;
+  background: #eef5f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+/* colonna destra */
+.plant-right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+/* titolo */
+.plant-main-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.plant-title-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.plant-main-info h1 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #2f2b27;
+}
+
+/* scientifico */
+.plant-scientific {
+  margin: 0;
+  margin-left: 14px;
+  font-size: 12px;
+  color: #7c756f;
+  font-style: italic;
+}
+
+/* =========================
+   META INFO (tabellina)
+========================= */
+
+.plant-meta-table {
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid rgba(0,0,0,0.05);
+}
+
+.meta-row {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  padding: 6px 0;
+  gap: 8px;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.meta-row:last-child {
+  border-bottom: none;
+}
+
+.meta-label {
+  font-size: 11px;
+  color: #7c756f;
+}
+
+.meta-value {
+  font-size: 13px;
+  color: #2f2b27;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* =========================
+   SCROLL SEZIONI
+========================= */
+
+.small-scroll {
+  max-height: 110px;
+  overflow-y: auto;
+}
+
+.big-scroll {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+/* =========================
+   DIARIO / EVENTI
+========================= */
+/* header verticale (due righe) */
+.card-title.vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+/* riga principale */
+.title-main {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* sottotitolo */
+.title-sub {
+  /*font-size: 11px;*/
+  color: #2f4a3b;
+  /*opacity: 0.7;*/
+  font-style: italic;
+  text-align: center;
+  width: 100%;
+  margin-left: 0;
+  font-size: 10.5px;
+  letter-spacing: 0.03em;
+  opacity: 0.6;
+}
+
+.diary-table {
+  display: flex;
+  flex-direction: column;
+}
+
+.diary-row {
+  display: grid;
+  grid-template-columns: 52px 1fr;
+  gap: 8px;
+  padding: 10px 12px;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+.diary-row:last-child {
+  border-bottom: none;
+}
+
+.date {
+  font-size: 11px;
+  color: #7c756f;
+}
+
+.diary-row p {
+  margin: 0;
+  font-size: 13px;
+  color: #2f2b27;
+}
+
+.empty {
+  padding: 12px;
+  font-size: 12px;
+  color: #7c756f;
+  text-align: center;
+  opacity: 0.7;
+}
+
+/* =========================
+   STATUS DOT (coerente globale)
+========================= */
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  box-shadow: 0 0 0 2px rgba(0,0,0,0.03);
+}
+
+.status-dot.ok {
+  background: #28c840;
+}
+
+.status-dot.attention {
+  background: #febc2e;
+}
+
+.status-dot.problem {
+  background: #ff5f57;
+}

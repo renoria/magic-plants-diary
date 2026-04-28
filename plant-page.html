@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plant Magic</title>
+
+  <link rel="stylesheet" href="assets/css/index.css">
+  <link rel="stylesheet" href="assets/css/plants-list.css">
+  <link rel="stylesheet" href="assets/css/plant-page.css">
+  <script src="assets/js/plant-page.js" defer></script>
+</head>
+
+<body>
+
+<div class="page">
+  <div class="app-shell">
+
+    <!-- HEADER APP -->
+    <div class="window-bar">
+      <div class="window-controls">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+      </div>
+      <div class="window-title">
+        Magic Plants Diary
+      </div>
+    </div>
+
+    <!-- CONTENUTO -->
+    <main class="app-content">
+
+      <!-- CARD HEADER PIANTA -->
+      <section class="dashboard-card">
+
+        <div class="card-title">
+          <span>🌿</span>
+          <h2>Carta d'identità</h2>
+        </div>
+
+        <div class="plant-header">
+
+          <div class="plant-image">
+            🌿
+          </div>
+
+          <div class="plant-right">
+
+            <div class="plant-main-info">
+              <div class="plant-title-row">
+                <span class="status-dot" id="plantStatus"></span>
+                <h1 id="plantName"></h1>
+              </div>
+
+              <p class="plant-scientific" id="plantScientific"></p>
+            </div>
+
+            <div class="plant-meta-table">
+
+              <div class="meta-row">
+                <span class="meta-label">Origin</span>
+                <span class="meta-value" id="plantOrigin"></span>
+              </div>
+
+              <div class="meta-row">
+                <span class="meta-label">Date</span>
+                <span class="meta-value" id="plantDate"></span>
+              </div>
+
+              <div class="meta-row">
+                <span class="meta-label">☀️</span>
+                <span class="meta-value" id="plantLight"></span>
+              </div>
+
+              <div class="meta-row">
+                <span class="meta-label">🌡️</span>
+                <span class="meta-value" id="plantTemp"></span>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+      <!-- INNAFFIATURA -->
+      <section class="dashboard-card">
+
+        <div class="card-title vertical">
+
+  <div class="title-main">
+    <span>💧</span>
+    <h2>Innaffiatura</h2>
+  </div>
+
+  <div class="title-sub" id="plantWaterRule"></div>
+
+</div>
+
+        <div class="diary-table small-scroll" id="wateringHistory"></div>
+
+      </section>
+
+      <!-- TRATTAMENTI -->
+      <section class="dashboard-card">
+
+        <div class="card-title">
+          <span>🧪</span>
+          <h2>Trattamenti</h2>
+        </div>
+
+        <div class="diary-table small-scroll" id="plantTreatments"></div>
+
+      </section>
+
+      <!-- DIARIO -->
+      <section class="dashboard-card">
+
+        <div class="card-title">
+          <span>📒</span>
+          <h2>Diario</h2>
+        </div>
+
+        <div class="diary-table big-scroll" id="plantEvents"></div>
+
+      </section>
+
+    </main>
+
+    <!-- NAV -->
+    <nav class="app-nav">
+      <a href="plants-list.html" class="nav-item">
+        <span class="nav-icon">🌿</span>
+        <span>Piante</span>
+      </a>
+
+      <a href="index.html" class="nav-item">
+        <span class="nav-icon">🏡</span>
+        <span>Home</span>
+      </a>
+
+      <a href="#" class="nav-item">
+        <span class="nav-icon">🛒</span>
+        <span>Shop</span>
+      </a>
+    </nav>
+
+  </div>
+</div>
+
+</body>
+</html>

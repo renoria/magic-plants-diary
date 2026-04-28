@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Magic</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <script src="assets/js/index.js" defer></script>
+</head>
+<body>
+
+    <div class="page">
+  <div class="app-shell">
+    <div class="window-bar">
+  <div class="window-controls">
+    <span class="dot red"></span>
+    <span class="dot yellow"></span>
+    <span class="dot green"></span>
+  </div>
+
+  <div class="window-title">
+    Magic Plants Diary
+  </div>
+</div>
+
+    <main class="app-content">
+      <section class="dashboard-card recent-card">
+    <div class="card-title">
+      <span>🕘</span>
+      <h2>Attività recente</h2>
+    </div>
+
+    <div class="activity-list" id="globalActivity"></div>
+
+    <button class="text-button">Vedi tutto</button>
+  </section>
+
+  <div class="dashboard-grid">
+    <section class="dashboard-card small-card shopping-card">
+      <div class="card-title">
+        <span>🛒</span>
+        <h2>Lista spesa</h2>
+      </div>
+
+      <ul class="shopping-list">
+        <li><span class="urgency red"></span> Terriccio universale</li>
+        <li><span class="urgency yellow"></span> Perlite</li>
+        <li><span class="urgency green"></span> Sfagno</li>
+      </ul>
+
+      <button class="text-button warm">Vedi tutto</button>
+    </section>
+
+    <section class="dashboard-card small-card inventory-card">
+      <div class="card-title">
+        <span>🫙</span>
+        <h2>Ingredienti</h2>
+      </div>
+
+      <div class="ingredient">
+        <div class="ingredient-top">
+          <span>Perlite</span>
+          <span>Medio</span>
+        </div>
+        <div class="bar"><span style="width: 60%;"></span></div>
+      </div>
+
+      <div class="ingredient">
+        <div class="ingredient-top">
+          <span>Bark</span>
+          <span>Poco</span>
+        </div>
+        <div class="bar"><span style="width: 35%;"></span></div>
+      </div>
+
+      <div class="ingredient">
+        <div class="ingredient-top">
+          <span>Sfagno</span>
+          <span>Alto</span>
+        </div>
+        <div class="bar"><span style="width: 80%;"></span></div>
+      </div>
+    </section>
+  </div>
+
+  <section class="dashboard-card next-card">
+    <div class="card-title">
+      <span>🌱</span>
+      <h2>Prossimi passi</h2>
+    </div>
+
+    <div class="next-row">
+      <span class="next-icon">🪴</span>
+      <div>
+        <strong>2 piante da travasare</strong>
+        <p>Spathiphyllum, Ficus Lyrata</p>
+      </div>
+      <span class="activity-arrow">›</span>
+    </div>
+
+    <div class="next-row">
+      <span class="next-icon">🔍</span>
+      <div>
+        <strong>3 piante da controllare</strong>
+        <p>Avocado Big, Monstera, Calathea</p>
+      </div>
+      <span class="activity-arrow">›</span>
+    </div>
+  </section>
+
+</main>
+
+<nav class="app-nav">
+  <a href="plants-list.html" class="nav-item">
+    <span class="nav-icon">🌿</span>
+    <span>Piante</span>
+  </a>
+
+  <a href="index.html" class="nav-item active">
+    <span class="nav-icon">🏡</span>
+    <span>Home</span>
+  </a>
+
+  <a href="#" class="nav-item">
+    <span class="nav-icon">🛒</span>
+    <span>Shop</span>
+  </a>
+</nav>
+  </div>
+</div>
+
+</body>
+</html>
