@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nuova pianta</title>
+
+  <link rel="stylesheet" href="assets/css/index.css">
+  <link rel="stylesheet" href="assets/css/new-plant.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+  <script src="assets/js/supabase.js"></script>
+  <script src="assets/js/new-plant.js" defer></script>
+</head>
+
+<body>
+<div class="page">
+  <div class="app-shell">
+
+    <div class="window-bar">
+      <div class="window-title">Nuova pianta</div>
+    </div>
+
+    <main class="app-content">
+
+      <section class="dashboard-card">
+        <div class="card-title">
+          <span>🌿</span>
+          <h2>Crea pianta</h2>
+        </div>
+
+        <div class="plant-form">
+
+          <input id="name" placeholder="Nome comune">
+          <input id="scientific" placeholder="Nome scientifico">
+
+          <select id="origin">
+            <option value="">Seleziona origine</option>
+            <option value="acquisto">acquisto</option>
+            <option value="regalo">regalo</option>
+            <option value="talea">talea</option>
+          </select>
+          <input id="date" type="date">
+
+          <select id="light">
+            <option value="">Seleziona luce</option>
+            <option value="pieno sole">pieno sole</option>
+            <option value="luce indiretta luminosa">luce indiretta luminosa</option>
+            <option value="luce indiretta">luce indiretta</option>
+            <option value="mezzombra">mezzombra</option>
+          </select>
+          <input id="temperature" placeholder="Temperatura (es. 18° – 28°)">
+          <select id="water">
+            <option value="">Seleziona irrigazione</option>
+            <option value="lascia asciugare completamente">lascia asciugare completamente</option>
+            <option value="lascia asciugare per metà">lascia asciugare per metà</option>
+            <option value="mantenere leggermente umido">mantieni leggermente umido</option>
+          </select>
+
+          <select id="status">
+            <option value="ok">OK</option>
+            <option value="attention">Attenzione</option>
+            <option value="problem">Problema</option>
+          </select>
+
+          <button id="savePlantBtn">Salva pianta</button>
+
+        </div>
+      </section>
+
+    </main>
+  </div>
+</div>
+</body>
+</html>

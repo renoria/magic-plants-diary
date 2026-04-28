@@ -1,0 +1,20 @@
+.plant-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.plant-form input,
+.plant-form select {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.plant-form button {
+  padding: 12px;
+  background: #55745d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
