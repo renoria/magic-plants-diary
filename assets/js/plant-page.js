@@ -1,22 +1,34 @@
 async function loadPlantPage() {
   try {
-    // 👉 prendi ID dalla URL
     const params = new URLSearchParams(window.location.search);
     const plantId = params.get("id");
 
-    // 👉 carica dati
-    const plantsRes = await fetch("assets/data/plants.json");
-    const plants = await plantsRes.json();
-
-    const eventsRes = await fetch("assets/data/events.json");
-    const events = await eventsRes.json();
-
-    // 👉 trova pianta
-    const plant = plants.find(p => p.id === plantId);
-
-    if (!plant) {
-      console.error("Pianta non trovata");
+    if (!plantId) {
+      console.error("ID mancante nella URL");
       return;
+    }
+
+    // 👉 PRENDE UNA SOLA PIANTA
+    const { data: plant, error: plantError } = await db
+      .from("plants")
+      .select("*")
+      .eq("id", plantId)
+      .single();
+
+    if (plantError || !plant) {
+      console.error("Errore plant:", plantError);
+      return;
+    }
+
+    // 👉 PRENDE EVENTI DI QUELLA PIANTA
+    const { data: events, error: eventsError } = await db
+      .from("events")
+      .select("*")
+      .eq("plant_id", plantId)
+      .order("date", { ascending: false });
+
+    if (eventsError) {
+      console.error("Errore events:", eventsError);
     }
 
     // =========================
@@ -31,54 +43,38 @@ async function loadPlantPage() {
     document.getElementById("plantTemp").textContent = plant.temperature;
     document.getElementById("plantWaterRule").textContent = plant.watering_rule;
 
-    // status dot
     const statusEl = document.getElementById("plantStatus");
-    statusEl.classList.add(plant.status);
+    statusEl.className = "status-dot " + plant.status;
 
     // =========================
-    // FILTRO EVENTI
+    // EVENTI
     // =========================
 
-    const plantEvents = events
-      .filter(e => e.plant_id === plantId)
-      .sort((a, b) => new Date(b.date) - new Date(a.date));
+    const plantEvents = events || [];
 
-    // =========================
-    // INNAFFIATURA
-    // =========================
-
+    // 💧 INNAFFIATURA
     const waterContainer = document.getElementById("wateringHistory");
-
-    const waterEvents = plantEvents.filter(e => e.type === "water");
-
     waterContainer.innerHTML = "";
 
-    waterEvents.slice(0, 10).forEach(ev => {
-      waterContainer.appendChild(createRow(ev));
-    });
+    plantEvents
+      .filter(e => e.type === "water")
+      .slice(0, 10)
+      .forEach(ev => {
+        waterContainer.appendChild(createRow(ev));
+      });
 
-    // =========================
-    // TRATTAMENTI
-    // =========================
-
+    // 🧪 TRATTAMENTI
     const treatmentsContainer = document.getElementById("plantTreatments");
-
-    const treatmentEvents = plantEvents.filter(e =>
-      e.type === "trattamento" || e.type === "fertilizzazione"
-    );
-
     treatmentsContainer.innerHTML = "";
 
-    treatmentEvents.forEach(ev => {
-      treatmentsContainer.appendChild(createRow(ev));
-    });
+    plantEvents
+      .filter(e => e.type === "trattamento" || e.type === "fertilizzazione")
+      .forEach(ev => {
+        treatmentsContainer.appendChild(createRow(ev));
+      });
 
-    // =========================
-    // DIARIO (tutto)
-    // =========================
-
+    // 📒 DIARIO
     const diaryContainer = document.getElementById("plantEvents");
-
     diaryContainer.innerHTML = "";
 
     plantEvents.forEach(ev => {

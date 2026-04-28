@@ -1,7 +1,12 @@
 async function loadPlants() {
   try {
-    const res = await fetch("assets/data/plants.json");
-    const plants = await res.json();
+    const { data: plants, error } = await db
+      .from("plants")
+      .select("*");
+
+    if (error) {
+      console.error(error);
+    }
 
     const container = document.getElementById("plantsContainer");
     container.innerHTML = "";

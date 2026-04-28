@@ -1,11 +1,16 @@
 async function loadRecentActivity() {
   try {
     // carica dati
-    const plantsRes = await fetch("assets/data/plants.json");
-    const plants = await plantsRes.json();
+    const { data: plants, error: plantsError } = await db
+        .from("plants")
+        .select("*");
 
-    const eventsRes = await fetch("assets/data/events.json");
-    const events = await eventsRes.json();
+    const { data: events, error: eventsError } = await db
+        .from("events")
+        .select("*");
+
+    if (plantsError) console.error(plantsError);
+    if (eventsError) console.error(eventsError);
 
     // mappa plant_id → nome
     const plantMap = {};
