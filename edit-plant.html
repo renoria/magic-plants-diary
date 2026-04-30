@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit Plant - MPD</title>
+
+  <link rel="stylesheet" href="assets/css/index.css">
+  <link rel="stylesheet" href="assets/css/plants-list.css">
+  <link rel="stylesheet" href="assets/css/plant-page.css">
+  <link rel="stylesheet" href="assets/css/edit-plant.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+  <script src="assets/js/supabase.js"></script>
+  <script src="assets/js/edit-plant.js" defer></script>
+</head>
+
+<body>
+
+<div class="page">
+  <div class="app-shell">
+
+    <!-- HEADER APP -->
+    <div class="window-bar">
+      <div class="window-controls">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+      </div>
+      <div class="window-title">
+        Magic Plants Diary
+      </div>
+    </div>
+
+    <!-- CONTENUTO -->
+    <main class="app-content">
+
+      <section class="dashboard-card edit-card">
+        <div class="card-title">
+          <span>✏️</span>
+          <h2>Modifica pianta</h2>
+        </div>
+
+        <form id="editPlantForm" class="edit-form">
+
+  <div class="form-group">
+    <label>Nome</label>
+    <input type="text" id="name">
+  </div>
+
+  <div class="form-group">
+    <label>Nome scientifico</label>
+    <input type="text" id="scientific">
+  </div>
+
+  <div class="form-group">
+    <label>Origine</label>
+    <select id="origin">
+      <option value="acquisto">Acquisto</option>
+      <option value="regalo">Regalo</option>
+      <option value="talea">Talea</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label>Data</label>
+    <input type="date" id="date">
+  </div>
+
+  <div class="form-group">
+    <label>Luce</label>
+    <select id="light">
+      <option value="pieno sole">Pieno sole</option>
+      <option value="luce indiretta luminosa">Luce indiretta luminosa</option>
+      <option value="luce indiretta">Luce indiretta</option>
+      <option value="mezzombra">Mezzombra</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label>Temperatura</label>
+    <input type="text" id="temperature" placeholder="es. 18° - 28°">
+  </div>
+
+  <div class="form-group">
+    <label>Innaffiatura</label>
+    <select id="watering_rule">
+      <option value="lascia asciugare completamente">Lascia asciugare completamente</option>
+      <option value="lascia asciugare per metà">Lascia asciugare per metà</option>
+      <option value="mantieni leggermente umida">Mantieni leggermente umida</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label>Status</label>
+    <select id="status">
+      <option value="ok">🟢 Ok</option>
+      <option value="attention">🟡 Attenzione</option>
+      <option value="problem">🔴 Problema</option>
+    </select>
+  </div>
+
+  <button type="submit" class="save-btn">
+    Salva modifiche
+  </button>
+
+</form>
+      </section>
+
+    </main>
+
+    <!-- NAV -->
+    <nav class="app-nav">
+      <a href="plants-list.html" class="nav-item">
+        <span class="nav-icon">🌿</span>
+        <span>Piante</span>
+      </a>
+
+      <a href="index.html" class="nav-item">
+        <span class="nav-icon">🏡</span>
+        <span>Home</span>
+      </a>
+
+      <!--<a href="#" class="nav-item">
+        <span class="nav-icon">🛒</span>
+        <span>Shop</span>
+        </a> -->
+
+    <a href="roadmap.html" class="nav-item">
+        <span class="nav-icon">🧠</span>
+        <span>Roadmap</span>
+    </a>
+    </nav>
+
+  </div>
+</div>
+
+</body>
+</html>

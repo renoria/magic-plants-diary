@@ -46,6 +46,7 @@ async function loadPlantPage() {
     const statusEl = document.getElementById("plantStatus");
     statusEl.className = "status-dot " + plant.status;
 
+
     // =========================
     // EVENTI
     // =========================
@@ -122,6 +123,18 @@ async function loadPlantPage() {
     console.error("Errore pagina pianta:", err);
   }
 }
+
+
+// =========================
+// MODIFICA PIANTA
+// =========================
+
+const params = new URLSearchParams(window.location.search);
+const plantId = params.get("id");
+
+  document.getElementById("editPlantBtn").href =
+  `edit-plant.html?id=${plantId}`;
+    
 
 // =========================
 // COMPONENT ROW
