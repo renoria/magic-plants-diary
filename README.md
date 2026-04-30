@@ -30,13 +30,14 @@ Core features are implemented and stable:
 - Event tracking ✔
 - Database integration ✔
 - UUID migration completed ✔
+- Shopping list ✔
+- Soil ingredients tracking ✔
+- Plant editing ✔
 
 
 ## 🛣️ Next Steps
 
 - 🧠 Smart care suggestions (watering reminders, alerts)
-- 🛒 Shopping list
-- 🧪 Soil ingredients tracking
 - 👤 User authentication (multi-user support)
 
 
