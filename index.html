@@ -34,56 +34,37 @@
 
     <div class="activity-list" id="globalActivity"></div>
 
-    <button class="text-button">Vedi tutto</button>
   </section>
 
-  <div class="dashboard-grid">
-    <section class="dashboard-card small-card shopping-card">
-      <div class="card-title">
-        <span>🛒</span>
-        <h2>Lista spesa</h2>
-      </div>
+ <div class="dashboard-grid">
+  <section class="dashboard-card small-card shopping-card">
+    <div class="card-title">
+      <span>🛒</span>
+      <h2>Lista spesa</h2>
+    </div>
 
-      <ul class="shopping-list">
-        <li><span class="urgency red"></span> Terriccio universale</li>
-        <li><span class="urgency yellow"></span> Perlite</li>
-        <li><span class="urgency green"></span> Sfagno</li>
-      </ul>
+    <ul class="shopping-list" id="shoppingList">
+      <!-- popolato da JS -->
+    </ul>
 
-      <button class="text-button warm">Vedi tutto</button>
-    </section>
+    <div class="shopping-add">
+      <input type="text" id="shoppingInput" placeholder="Aggiungi elemento..." />
+      <button id="addShoppingBtn">+</button>
+    </div>
 
-    <section class="dashboard-card small-card inventory-card">
-      <div class="card-title">
-        <span>🫙</span>
-        <h2>Ingredienti</h2>
-      </div>
+  </section>
 
-      <div class="ingredient">
-        <div class="ingredient-top">
-          <span>Perlite</span>
-          <span>Medio</span>
-        </div>
-        <div class="bar"><span style="width: 60%;"></span></div>
-      </div>
+  <section class="dashboard-card small-card inventory-card">
+    <div class="card-title">
+      <span>🫙</span>
+      <h2>Ingredienti</h2>
+    </div>
 
-      <div class="ingredient">
-        <div class="ingredient-top">
-          <span>Bark</span>
-          <span>Poco</span>
-        </div>
-        <div class="bar"><span style="width: 35%;"></span></div>
-      </div>
-
-      <div class="ingredient">
-        <div class="ingredient-top">
-          <span>Sfagno</span>
-          <span>Alto</span>
-        </div>
-        <div class="bar"><span style="width: 80%;"></span></div>
-      </div>
-    </section>
-  </div>
+    <div id="ingredientsList">
+      <!-- popolato da JS -->
+    </div>
+  </section>
+ </div>
 
   <section class="dashboard-card next-card">
     <div class="card-title">

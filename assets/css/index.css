@@ -96,7 +96,6 @@ html, body {
   letter-spacing: 0.3px;
 }
 
-
 /* contenuto */
 .app-content {
   flex: 1;
@@ -239,42 +238,90 @@ html, body {
   min-height: 120px;
 }
 
+.shopping-card,
+.inventory-card {
+  max-height: 240px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Shopping Input */
+.shopping-add {
+  display: flex;
+  gap: 6px;
+  padding: 8px;
+  border-top: 1px solid rgba(0,0,0,0.05);
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.shopping-add input {
+  flex: 1;
+  min-width: 0; 
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 6px 8px;
+  font-size: 12px;
+}
+
+.shopping-add button {
+  border: none;
+  background: #4f8a61;
+  color: white;
+  border-radius: 8px;
+  padding: 0 10px;
+  cursor: pointer;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+/* Shopping List */
 .shopping-list {
+  flex: 1;
   list-style: none;
-  padding: 6px 0;
+  padding: 6px 10px;
   margin: 0;
+  overflow-y: auto;
+}
+
+.shopping-item-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .shopping-list li {
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 9px 0;
-  font-size: 13px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 8px 10px;
+  margin-bottom: 6px;
+  background: rgba(122,151,127,0.08);
+  border-radius: 8px;
+  font-size: 12px;
 }
 
-.urgency {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  flex-shrink: 0;
+.shop-check {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
-.urgency.red {
-  background: #ff5f57;
+.shop-name.done {
+  text-decoration: line-through;
+  opacity: 0.5;
 }
 
-.urgency.yellow {
-  background: #febc2e;
+/* Ingredienti Dinamici */
+.ingredients-list {
+  padding: 6px 0;
 }
 
-.urgency.green {
-  background: #28c840;
+#ingredientsList {
+  flex: 1;
+  overflow-y: auto;
 }
 
 .ingredient {
-  padding: 10px 14px 2px;
+  padding: 8px 14px 4px;
 }
 
 .ingredient-top {
@@ -282,11 +329,11 @@ html, body {
   justify-content: space-between;
   font-size: 12px;
   color: #5b524b;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
 }
 
 .bar {
-  height: 7px;
+  height: 6px;
   background: #e8e3dc;
   border-radius: 999px;
   overflow: hidden;
@@ -295,8 +342,21 @@ html, body {
 .bar span {
   display: block;
   height: 100%;
-  background: linear-gradient(to right, #8fbb9b, #6ea884);
   border-radius: inherit;
+  transition: width 0.3s ease;
+}
+
+/* colori dinamici */
+.bar.low span {
+  background: #ff5f57;
+}
+
+.bar.medium span {
+  background: #febc2e;
+}
+
+.bar.high span {
+  background: linear-gradient(to right, #8fbb9b, #6ea884);
 }
 
 .next-row {
@@ -361,13 +421,12 @@ html, body {
   line-height: 1;
 }
 
-/* TEMP ROADMAP */
+/* TEMP ROADMAP */ 
 .roadmap-list {
-  list-style: none;
-  padding: 10px;
-}
-
-.roadmap-list li {
-  padding: 6px 0;
-  font-size: 14px;
-}
+   list-style: none; 
+   padding: 10px; 
+  } 
+  .roadmap-list li {
+     padding: 6px 0;
+    font-size: 14px; 
+  }
