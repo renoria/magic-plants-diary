@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nuovo evento - MPD</title>
+
+  <link rel="stylesheet" href="assets/css/index.css">
+  <link rel="stylesheet" href="assets/css/plants-list.css">
+  <link rel="stylesheet" href="assets/css/plant-page.css">
+  <link rel="stylesheet" href="assets/css/edit-plant.css">
+  <link rel="stylesheet" href="assets/css/add-event.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+  <script src="assets/js/supabase.js"></script>
+  <script src="assets/js/add-event.js" defer></script>
+</head>
+
+<body>
+
+<div class="page">
+  <div class="app-shell">
+
+    <div class="window-bar">
+      <div class="window-controls">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+      </div>
+      <div class="window-title">
+        Magic Plants Diary
+      </div>
+    </div>
+
+    <main class="app-content">
+
+      <section class="dashboard-card edit-card">
+        <div class="card-title event-page-title">
+          <div class="title-main">
+            <span id="eventIcon">➕</span>
+            <h2 id="eventTitle">Nuovo evento</h2>
+          </div>
+          <a id="backToPlant" class="back-link" href="#">Annulla</a>
+        </div>
+
+        <form id="addEventForm" class="edit-form event-form-guided">
+          <div class="plant-context" id="plantContext"></div>
+
+          <div class="form-group">
+            <label>Tipo evento</label>
+            <select id="eventType"></select>
+          </div>
+
+          <div class="form-group">
+            <label>Data</label>
+            <input type="date" id="eventDate">
+          </div>
+
+          <div id="dynamicFields" class="dynamic-fields"></div>
+
+          <div class="event-preview">
+            <span>Anteprima</span>
+            <p id="eventPreview">—</p>
+          </div>
+
+          <button type="submit" class="save-btn">
+            Salva evento
+          </button>
+        </form>
+      </section>
+
+    </main>
+
+    <nav class="app-nav">
+      <a href="plants-list.html" class="nav-item">
+        <span class="nav-icon">🌿</span>
+        <span>Piante</span>
+      </a>
+
+      <a href="index.html" class="nav-item">
+        <span class="nav-icon">🏡</span>
+        <span>Home</span>
+      </a>
+
+      <a href="roadmap.html" class="nav-item">
+        <span class="nav-icon">🧠</span>
+        <span>Roadmap</span>
+      </a>
+    </nav>
+
+  </div>
+</div>
+
+</body>
+</html>

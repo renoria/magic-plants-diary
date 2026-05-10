@@ -37,8 +37,10 @@
       <section class="dashboard-card">
 
         <div class="card-title">
-          <span>🌿</span>
-          <h2>Carta d'identità</h2>
+          <div class="title-main">
+            <span>🌿</span>
+            <h2>Carta d'identità</h2>
+          </div>
           <a id="editPlantBtn" href="#">
               ✏️
           </a>
@@ -90,19 +92,23 @@
 
       </section>
 
-      <!-- INNAFFIATURA -->
+      <!-- INNAFFIATURE -->
       <section class="dashboard-card">
 
-        <div class="card-title vertical">
+        <div class="card-title vertical section-title">
+          <div class="title-row">
+            <div class="title-main">
+              <span>💧</span>
+              <h2>Innaffiature</h2>
+            </div>
 
-  <div class="title-main">
-    <span>💧</span>
-    <h2>Innaffiatura</h2>
-  </div>
+            <div class="section-actions">
+              <a class="add-event-btn" data-event-type="watering" href="#" aria-label="Aggiungi innaffiatura" title="Aggiungi innaffiatura">+</a>
+            </div>
+          </div>
 
-  <div class="title-sub" id="plantWaterRule"></div>
-
-</div>
+          <div class="title-sub" id="plantWaterRule"></div>
+        </div>
 
         <div class="diary-table small-scroll" id="wateringHistory"></div>
 
@@ -111,9 +117,16 @@
       <!-- TRATTAMENTI -->
       <section class="dashboard-card">
 
-        <div class="card-title">
-          <span>🧪</span>
-          <h2>Trattamenti</h2>
+        <div class="card-title section-title">
+          <div class="title-main">
+            <span>🧪</span>
+            <h2>Trattamenti</h2>
+          </div>
+
+          <div class="section-actions">
+            <a class="add-event-btn" data-event-type="fertilization" href="#" aria-label="Aggiungi fertilizzazione" title="Aggiungi fertilizzazione">🌿+</a>
+            <a class="add-event-btn" data-event-type="repot" href="#" aria-label="Aggiungi rinvaso" title="Aggiungi rinvaso">🪴+</a>
+          </div>
         </div>
 
         <div class="diary-table small-scroll" id="plantTreatments"></div>
@@ -123,39 +136,21 @@
       <!-- DIARIO -->
       <section class="dashboard-card">
 
-        <div class="card-title">
-          <span>📒</span>
-          <h2>Diario</h2>
+        <div class="card-title section-title">
+          <div class="title-main">
+            <span>📓</span>
+            <h2>Diario</h2>
+          </div>
+
+          <div class="section-actions">
+            <a class="add-event-btn" data-event-type="maintenance" href="#" aria-label="Aggiungi manutenzione" title="Aggiungi manutenzione">🛠️+</a>
+            <a class="add-event-btn" data-event-type="growth" href="#" aria-label="Aggiungi crescita" title="Aggiungi crescita">🌱+</a>
+            <a class="add-event-btn" data-event-type="problem" href="#" aria-label="Aggiungi problema" title="Aggiungi problema">⚠️+</a>
+            <a class="add-event-btn" data-event-type="note" href="#" aria-label="Aggiungi nota" title="Aggiungi nota">📝+</a>
+          </div>
         </div>
 
         <div class="diary-table big-scroll" id="plantEvents"></div>
-
-      </section>
-
-      <!-- AGGIUNGI -->
-      <section class="dashboard-card">
-
-        <div class="card-title">
-          <span>➕</span>
-          <h2>Nuovo evento</h2>
-        </div>
-
-        <div class="event-form">
-
-          <select id="eventType">
-            <option value="water">💧 Innaffiatura</option>
-            <option value="fertilizzazione">🌿 Fertilizzazione</option>
-            <option value="trattamento">🧪 Trattamento</option>
-            <option value="problem">⚠️ Problema</option>
-            <option value="growth">🌱 Crescita</option>
-            <option value="note">📝 Nota</option>
-          </select>
-
-          <textarea id="eventText" placeholder="Descrizione..."></textarea>
-
-          <button id="saveEventBtn">Salva evento</button>
-
-        </div>
 
       </section>
 

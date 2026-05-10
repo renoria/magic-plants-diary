@@ -220,14 +220,29 @@ function formatDate(dateStr) {
 }
 
 function getIcon(type) {
-  switch (type) {
-    case "water": return "💧";
+  switch (normalizeEventType(type)) {
+    case "watering": return "💧";
     case "repot": return "🪴";
     case "problem": return "⚠️";
-    case "fertilizzazione": return "🌿";
-    case "trattamento": return "🧪";
+    case "fertilization": return "🧪";
+    case "maintenance": return "🛠️";
     case "growth": return "🌱";
+    case "note": return "📝";
     default: return "•";
+  }
+}
+
+function normalizeEventType(type) {
+  switch (type) {
+    case "water":
+      return "watering";
+    case "fertilizzazione":
+      return "fertilization";
+    case "trattamento":
+    case "action":
+      return "maintenance";
+    default:
+      return type;
   }
 }
 

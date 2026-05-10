@@ -9,6 +9,7 @@
 }
 
 #editPlantBtn {
+  margin-left: auto;
   text-decoration: none;
   font-size: 16px;
   background: rgba(122,151,127,0.15);
@@ -127,11 +128,51 @@
   gap: 2px;
 }
 
+.section-title {
+  justify-content: space-between;
+}
+
+.title-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
 /* riga principale */
 .title-main {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+
+.section-actions {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.add-event-btn {
+  min-width: 26px;
+  height: 26px;
+  padding: 0 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.55);
+  color: #2f4a3b;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+.add-event-btn:active {
+  transform: scale(0.96);
 }
 
 /* sottotitolo */

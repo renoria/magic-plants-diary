@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ingredienti - MPD</title>
+
+  <link rel="stylesheet" href="assets/css/index.css">
+  <link rel="stylesheet" href="assets/css/plants-list.css">
+  <link rel="stylesheet" href="assets/css/ingredient-manager.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+  <script src="assets/js/supabase.js"></script>
+  <script src="assets/js/ingredient-manager.js" defer></script>
+</head>
+
+<body>
+
+<div class="page">
+  <div class="app-shell">
+
+    <div class="window-bar">
+      <div class="window-controls">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+      </div>
+      <div class="window-title">
+        Magic Plants Diary
+      </div>
+    </div>
+
+    <main class="app-content">
+
+      <section class="dashboard-card ingredients-manager-card">
+        <div class="card-title">
+          <span>🫙</span>
+          <h2>Ingredienti</h2>
+          <a href="index.html" class="back-home-btn">Home</a>
+        </div>
+
+        <div class="ingredient-add">
+          <input type="text" id="ingredientName" placeholder="Nuovo ingrediente">
+          <button id="addIngredientBtn" type="button">+</button>
+        </div>
+
+        <div id="ingredientManagerList" class="ingredient-manager-list"></div>
+      </section>
+
+    </main>
+
+    <nav class="app-nav">
+      <a href="plants-list.html" class="nav-item">
+        <span class="nav-icon">🌿</span>
+        <span>Piante</span>
+      </a>
+
+      <a href="index.html" class="nav-item">
+        <span class="nav-icon">🏡</span>
+        <span>Home</span>
+      </a>
+
+      <a href="roadmap.html" class="nav-item">
+        <span class="nav-icon">🧠</span>
+        <span>Roadmap</span>
+      </a>
+    </nav>
+
+  </div>
+</div>
+
+</body>
+</html>

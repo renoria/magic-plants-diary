@@ -137,6 +137,16 @@ html, body {
   letter-spacing: 0.08em;
 }
 
+.manage-ingredients-btn {
+  margin-left: auto;
+  text-decoration: none;
+  font-size: 13px;
+  background: rgba(255,255,255,0.5);
+  padding: 5px 7px;
+  border-radius: 8px;
+  color: #2f4a3b;
+}
+
 .activity-list {
     max-height: 180px;
     overflow-y: auto;
@@ -186,12 +196,23 @@ html, body {
   background: #eef8f3;
 }
 
+.activity-icon.watering {
+  background: #eef8f3;
+}
+
 .activity-icon.repot {
   background: #f5f0e8;
 }
 
 .activity-icon.problem {
   background: #fff5db;
+}
+
+.activity-icon.fertilization,
+.activity-icon.maintenance,
+.activity-icon.note,
+.activity-icon.growth {
+  background: rgba(122,151,127,0.1);
 }
 
 .activity-text {

@@ -46,6 +46,13 @@ async function loadPlantPage() {
     const statusEl = document.getElementById("plantStatus");
     statusEl.className = "status-dot " + plant.status;
 
+    document.getElementById("editPlantBtn").href =
+      `edit-plant.html?id=${plantId}`;
+
+    document.querySelectorAll(".add-event-btn").forEach((button) => {
+      const type = button.dataset.eventType;
+      button.href = `add-event.html?id=${plantId}&type=${type}`;
+    });
 
     // =========================
     // EVENTI
@@ -57,67 +64,29 @@ async function loadPlantPage() {
     const waterContainer = document.getElementById("wateringHistory");
     waterContainer.innerHTML = "";
 
-    plantEvents
-      .filter(e => e.type === "water")
-      .slice(0, 10)
-      .forEach(ev => {
-        waterContainer.appendChild(createRow(ev));
-      });
+    const wateringEvents = plantEvents
+      .filter(e => normalizeEventType(e.type) === "watering")
+      .slice(0, 10);
+
+    renderRows(waterContainer, wateringEvents);
 
     // 🧪 TRATTAMENTI
     const treatmentsContainer = document.getElementById("plantTreatments");
     treatmentsContainer.innerHTML = "";
 
-    plantEvents
-      .filter(e => e.type === "trattamento" || e.type === "fertilizzazione")
-      .forEach(ev => {
-        treatmentsContainer.appendChild(createRow(ev));
-      });
+    const treatmentEvents = plantEvents
+      .filter(e => ["fertilization", "repot"].includes(normalizeEventType(e.type)));
 
-    // 📒 DIARIO
+    renderRows(treatmentsContainer, treatmentEvents);
+
+    // 📓 DIARIO
     const diaryContainer = document.getElementById("plantEvents");
     diaryContainer.innerHTML = "";
 
-    plantEvents.forEach(ev => {
-      diaryContainer.appendChild(createRow(ev, true));
-    });
+    const diaryEvents = plantEvents
+      .filter(e => ["maintenance", "growth", "problem", "note"].includes(normalizeEventType(e.type)));
 
-    // =========================
-    // NUOVO EVENTO
-    // =========================
-
-    const saveBtn = document.getElementById("saveEventBtn");
-
-    if (saveBtn) {
-      saveBtn.addEventListener("click", async () => {
-        const type = document.getElementById("eventType").value;
-        const text = document.getElementById("eventText").value.trim();
-
-        if (!text) {
-          alert("Scrivi qualcosa");
-          return;
-        }
-
-        const today = new Date().toISOString().slice(0, 10);
-
-        const { error } = await db.from("events").insert([
-          {
-            plant_id: plantId,
-            date: today,
-            type: type,
-            text: text
-          }
-        ]);
-
-        if (error) {
-          console.error(error);
-          alert("Errore salvataggio");
-        } else {
-          document.getElementById("eventText").value = "";
-          location.reload();
-        }
-      });
-    }
+    renderRows(diaryContainer, diaryEvents, true);
 
   } catch (err) {
     console.error("Errore pagina pianta:", err);
@@ -129,28 +98,38 @@ async function loadPlantPage() {
 // MODIFICA PIANTA
 // =========================
 
-const params = new URLSearchParams(window.location.search);
-const plantId = params.get("id");
-
-  document.getElementById("editPlantBtn").href =
-  `edit-plant.html?id=${plantId}`;
-    
 
 // =========================
 // COMPONENT ROW
 // =========================
 
+function renderRows(container, events, showIcon = false) {
+  if (events.length === 0) {
+    const empty = document.createElement("div");
+    empty.className = "empty";
+    empty.textContent = "Nessun evento";
+    container.appendChild(empty);
+    return;
+  }
+
+  events.forEach(ev => {
+    container.appendChild(createRow(ev, showIcon));
+  });
+}
+
 function createRow(ev, showIcon = false) {
   const row = document.createElement("div");
   row.className = "diary-row";
 
-  row.innerHTML = `
-    <span class="date">${formatDate(ev.date)}</span>
-    <p>
-      ${showIcon ? getIcon(ev.type) + " " : ""}
-      ${ev.text}
-    </p>
-  `;
+  const date = document.createElement("span");
+  date.className = "date";
+  date.textContent = formatDate(ev.date);
+
+  const text = document.createElement("p");
+  text.textContent = `${showIcon ? getIcon(ev.type) + " " : ""}${ev.text}`;
+
+  row.appendChild(date);
+  row.appendChild(text);
 
   return row;
 }
@@ -170,14 +149,29 @@ function formatDate(dateStr) {
 }
 
 function getIcon(type) {
-  switch (type) {
-    case "water": return "💧";
+  switch (normalizeEventType(type)) {
+    case "watering": return "💧";
     case "repot": return "🪴";
     case "problem": return "⚠️";
-    case "fertilizzazione": return "🌿";
-    case "trattamento": return "🧪";
+    case "fertilization": return "🧪";
+    case "maintenance": return "🛠️";
     case "growth": return "🌱";
+    case "note": return "📝";
     default: return "•";
+  }
+}
+
+function normalizeEventType(type) {
+  switch (type) {
+    case "water":
+      return "watering";
+    case "fertilizzazione":
+      return "fertilization";
+    case "trattamento":
+    case "action":
+      return "maintenance";
+    default:
+      return type;
   }
 }
 
